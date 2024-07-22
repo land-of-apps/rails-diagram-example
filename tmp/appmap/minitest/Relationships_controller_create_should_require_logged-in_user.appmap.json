@@ -1,0 +1,2836 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActionDispatch::Integration::Runner",
+      "method_id": "before_setup",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/testing/integration.rb",
+      "lineno": 329,
+      "static": false,
+      "receiver": {
+        "class": "RelationshipsControllerTest",
+        "object_id": 103820,
+        "value": "#<RelationshipsControllerTest:0x0000000111914878>"
+      }
+    },
+    {
+      "id": 2,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 103860,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 28900,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x00000001065e29f8>"
+      }
+    },
+    {
+      "id": 3,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 2,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00004199997056275606,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 28920,
+        "size": 0
+      }
+    },
+    {
+      "id": 4,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 103860,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 28900,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x00000001065e29f8>"
+      }
+    },
+    {
+      "id": 5,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 4,
+      "elapsed": 0.000005999987479299307,
+      "elapsed_instrumentation": 0.000025999965146183968,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x00000001065e1bc0 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 28940,
+        "size": 1
+      }
+    },
+    {
+      "id": 6,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 103880,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (0.0ms)\u001b[0m  \u001b[1m\u001b[36mbegin transaction\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9000,
+        "value": "#<Logger::LogDevice:0x00000001064f1bc0>"
+      }
+    },
+    {
+      "id": 7,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 6,
+      "elapsed": 0.000011000025551766157,
+      "elapsed_instrumentation": 0.000057999975979328156,
+      "return_value": {
+        "class": "Integer",
+        "value": "67",
+        "object_id": 135
+      }
+    },
+    {
+      "id": 8,
+      "event": "call",
+      "thread_id": 4480,
+      "sql_query": {
+        "sql": "begin transaction",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 9,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 8,
+      "elapsed": 0.000199,
+      "elapsed_instrumentation": 0.000037999998312443495
+    },
+    {
+      "id": 10,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 103900,
+          "value": "----------------------------------------------------------------------\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9000,
+        "value": "#<Logger::LogDevice:0x00000001064f1bc0>"
+      }
+    },
+    {
+      "id": 11,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 10,
+      "elapsed": 0.000006999995093792677,
+      "elapsed_instrumentation": 0.00002400000812485814,
+      "return_value": {
+        "class": "Integer",
+        "value": "71",
+        "object_id": 143
+      }
+    },
+    {
+      "id": 12,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 103920,
+          "value": "RelationshipsControllerTest: test_create_should_require_logged-in_user\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9000,
+        "value": "#<Logger::LogDevice:0x00000001064f1bc0>"
+      }
+    },
+    {
+      "id": 13,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 12,
+      "elapsed": 0.000004999979864805937,
+      "elapsed_instrumentation": 0.000018000020645558834,
+      "return_value": {
+        "class": "Integer",
+        "value": "71",
+        "object_id": 143
+      }
+    },
+    {
+      "id": 14,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 103940,
+          "value": "----------------------------------------------------------------------\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9000,
+        "value": "#<Logger::LogDevice:0x00000001064f1bc0>"
+      }
+    },
+    {
+      "id": 15,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 14,
+      "elapsed": 0.000004999979864805937,
+      "elapsed_instrumentation": 0.000017000013031065464,
+      "return_value": {
+        "class": "Integer",
+        "value": "71",
+        "object_id": 143
+      }
+    },
+    {
+      "id": 16,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 103960,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 38780,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000107117760>"
+      }
+    },
+    {
+      "id": 17,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 16,
+      "elapsed": 0.00015799998072907329,
+      "elapsed_instrumentation": 0.000035999983083456755,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000000107117378 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x00000001071174b8 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 38880,
+        "size": 2
+      }
+    },
+    {
+      "id": 18,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 103960,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 38780,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000107117760>"
+      }
+    },
+    {
+      "id": 19,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 18,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00001699995482340455,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 38900,
+        "size": 0
+      }
+    },
+    {
+      "id": 20,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 1,
+      "elapsed": 0.0009260000078938901,
+      "elapsed_instrumentation": 0.00006000004941597581,
+      "return_value": {
+        "class": "TrueClass",
+        "value": "true",
+        "object_id": 20
+      }
+    },
+    {
+      "id": 21,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Kernel",
+      "method_id": "eval",
+      "path": "Kernel#eval",
+      "static": false,
+      "parameters": [
+        {
+          "name": "string",
+          "class": "String",
+          "object_id": 103980,
+          "value": "Relationship.count",
+          "kind": "req"
+        },
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 104000,
+          "value": "[#<Binding:0x00000001119dd5c0>]",
+          "kind": "rest",
+          "size": 1
+        }
+      ],
+      "receiver": {
+        "class": "RelationshipsControllerTest",
+        "object_id": 103820,
+        "value": "#<RelationshipsControllerTest:0x0000000111914878>"
+      }
+    },
+    {
+      "id": 22,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 104020,
+          "value": "  \u001b[1m\u001b[36mRelationship Count (0.1ms)\u001b[0m  \u001b[1m\u001b[34mSELECT COUNT(*) FROM \"relationships\"\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9000,
+        "value": "#<Logger::LogDevice:0x00000001064f1bc0>"
+      }
+    },
+    {
+      "id": 23,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 22,
+      "elapsed": 0.00001799996243789792,
+      "elapsed_instrumentation": 0.00013700005365535617,
+      "return_value": {
+        "class": "Integer",
+        "value": "93",
+        "object_id": 187
+      }
+    },
+    {
+      "id": 24,
+      "event": "call",
+      "thread_id": 4480,
+      "sql_query": {
+        "sql": "SELECT COUNT(*) FROM \"relationships\"",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 25,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 24,
+      "elapsed": 0.000314,
+      "elapsed_instrumentation": 0.00004899996565654874
+    },
+    {
+      "id": 26,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 21,
+      "elapsed": 0.0030670000123791397,
+      "elapsed_instrumentation": 0.000032999960239976645,
+      "return_value": {
+        "class": "Integer",
+        "value": "4",
+        "object_id": 9
+      }
+    },
+    {
+      "id": 27,
+      "event": "call",
+      "thread_id": 4480,
+      "http_server_request": {
+        "request_method": "POST",
+        "path_info": "/relationships",
+        "normalized_path_info": "/relationships",
+        "headers": {
+          "Version": "HTTP/1.0",
+          "Host": "www.example.com",
+          "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Content-Length": "0"
+        }
+      }
+    },
+    {
+      "id": 28,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 104040,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 48300,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000106c9c9d8>"
+      }
+    },
+    {
+      "id": 29,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 28,
+      "elapsed": 0.0000439999857917428,
+      "elapsed_instrumentation": 0.000063000014051795,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000000106c97fa0 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x0000000106c9c190 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x0000000106c9c2d0 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x0000000106c9c410 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x0000000106c9c5c8 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 48320,
+        "size": 5
+      }
+    },
+    {
+      "id": 30,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 104040,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 48300,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000106c9c9d8>"
+      }
+    },
+    {
+      "id": 31,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 30,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000017000013031065464,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 48340,
+        "size": 0
+      }
+    },
+    {
+      "id": 32,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "String",
+      "method_id": "unpack",
+      "path": "<internal:pack>",
+      "lineno": 275,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 48360,
+          "value": "NnnnnN",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 104060,
+        "value": "_Rk_T__?\u0003__/_FM_"
+      }
+    },
+    {
+      "id": 33,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 32,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000034999975468963385,
+      "return_value": {
+        "class": "Array",
+        "value": "[2454875097, 21635, 64831, 934, 56623, 4148579763]",
+        "object_id": 104080,
+        "size": 6
+      }
+    },
+    {
+      "id": 34,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 104100,
+          "value": "Started POST \"/relationships\" for 127.0.0.1 at 2024-07-22 15:29:16 -0400\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9000,
+        "value": "#<Logger::LogDevice:0x00000001064f1bc0>"
+      }
+    },
+    {
+      "id": 35,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 34,
+      "elapsed": 0.000008000002708286047,
+      "elapsed_instrumentation": 0.00004799995804205537,
+      "return_value": {
+        "class": "Integer",
+        "value": "73",
+        "object_id": 147
+      }
+    },
+    {
+      "id": 36,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 104180,
+          "value": "Processing by RelationshipsController#create as HTML\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9000,
+        "value": "#<Logger::LogDevice:0x00000001064f1bc0>"
+      }
+    },
+    {
+      "id": 37,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 36,
+      "elapsed": 0.000010000017937272787,
+      "elapsed_instrumentation": 0.00007000000914558768,
+      "return_value": {
+        "class": "Integer",
+        "value": "53",
+        "object_id": 107
+      }
+    },
+    {
+      "id": 38,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 104200,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 104220,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000111a36be8>"
+      }
+    },
+    {
+      "id": 39,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 38,
+      "elapsed": 0.00002500001573935151,
+      "elapsed_instrumentation": 0.00003200001083314419,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000000111a368a0 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 104240,
+        "size": 1
+      }
+    },
+    {
+      "id": 40,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 104200,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 104260,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000111a372a0>"
+      }
+    },
+    {
+      "id": 41,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "SessionsHelper",
+      "method_id": "logged_in?",
+      "path": "app/helpers/sessions_helper.rb",
+      "lineno": 40,
+      "static": false,
+      "receiver": {
+        "class": "RelationshipsController",
+        "object_id": 104280,
+        "value": "#<RelationshipsController:0x0000000111a46ac0>"
+      }
+    },
+    {
+      "id": 42,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "SessionsHelper",
+      "method_id": "current_user",
+      "path": "app/helpers/sessions_helper.rb",
+      "lineno": 19,
+      "static": false,
+      "receiver": {
+        "class": "RelationshipsController",
+        "object_id": 104280,
+        "value": "#<RelationshipsController:0x0000000111a46ac0>"
+      }
+    },
+    {
+      "id": 43,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActionDispatch::Request::Session",
+      "method_id": "[]",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb",
+      "lineno": 110,
+      "static": false,
+      "parameters": [
+        {
+          "name": "key",
+          "class": "Symbol",
+          "object_id": 3075548,
+          "value": ":user_id",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Request::Session",
+        "object_id": 104300,
+        "value": "#<ActionDispatch::Request::Session:0x0000000111954388>"
+      }
+    },
+    {
+      "id": 44,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActionDispatch::Cookies::CookieJar",
+      "method_id": "update",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb",
+      "lineno": 352,
+      "static": false,
+      "parameters": [
+        {
+          "name": "other_hash",
+          "class": "Hash",
+          "object_id": 104320,
+          "value": "{}",
+          "kind": "req",
+          "size": 0
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Cookies::CookieJar",
+        "object_id": 104340,
+        "value": "#<ActionDispatch::Cookies::CookieJar:0x0000000111a2c878>"
+      }
+    },
+    {
+      "id": 45,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 44,
+      "elapsed": 0.00000400003045797348,
+      "elapsed_instrumentation": 0.000024999957531690598,
+      "return_value": {
+        "class": "ActionDispatch::Cookies::CookieJar",
+        "value": "#<ActionDispatch::Cookies::CookieJar:0x0000000111a2c878>",
+        "object_id": 104340
+      }
+    },
+    {
+      "id": 46,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActionDispatch::Cookies::CookieJar",
+      "method_id": "[]",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb",
+      "lineno": 336,
+      "static": false,
+      "parameters": [
+        {
+          "name": "name",
+          "class": "String",
+          "object_id": 49060,
+          "value": "_sample_app_session",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Cookies::CookieJar",
+        "object_id": 104340,
+        "value": "#<ActionDispatch::Cookies::CookieJar:0x0000000111a2c878>"
+      }
+    },
+    {
+      "id": 47,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 46,
+      "elapsed": 9.999494068324566e-7,
+      "elapsed_instrumentation": 0.000016000005416572094
+    },
+    {
+      "id": 48,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 43,
+      "elapsed": 0.00015199999324977398,
+      "elapsed_instrumentation": 0.00002700003096833825
+    },
+    {
+      "id": 49,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActionDispatch::Cookies::CookieJar",
+      "method_id": "[]",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb",
+      "lineno": 336,
+      "static": false,
+      "parameters": [
+        {
+          "name": "name",
+          "class": "String",
+          "object_id": 104360,
+          "value": "user_id",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Cookies::CookieJar",
+        "object_id": 104340,
+        "value": "#<ActionDispatch::Cookies::CookieJar:0x0000000111a2c878>"
+      }
+    },
+    {
+      "id": 50,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 49,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000016000005416572094
+    },
+    {
+      "id": 51,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 42,
+      "elapsed": 0.0002080000122077763,
+      "elapsed_instrumentation": 0.000011000025551766157
+    },
+    {
+      "id": 52,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 41,
+      "elapsed": 0.00022200000239536166,
+      "elapsed_instrumentation": 0.00001899997005239129
+    },
+    {
+      "id": 53,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "SessionsHelper",
+      "method_id": "store_location",
+      "path": "app/helpers/sessions_helper.rb",
+      "lineno": 59,
+      "static": false,
+      "receiver": {
+        "class": "RelationshipsController",
+        "object_id": 104280,
+        "value": "#<RelationshipsController:0x0000000111a46ac0>"
+      }
+    },
+    {
+      "id": 54,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 53,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000011999974958598614
+    },
+    {
+      "id": 55,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActionDispatch::Request::Session",
+      "method_id": "[]",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb",
+      "lineno": 110,
+      "static": false,
+      "parameters": [
+        {
+          "name": "key",
+          "class": "String",
+          "object_id": 87740,
+          "value": "flash",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Request::Session",
+        "object_id": 104300,
+        "value": "#<ActionDispatch::Request::Session:0x0000000111954388>"
+      }
+    },
+    {
+      "id": 56,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 55,
+      "elapsed": 0.0000029999646358191967,
+      "elapsed_instrumentation": 0.000015000056009739637
+    },
+    {
+      "id": 57,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActionController::Instrumentation",
+      "method_id": "redirect_to",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_controller/metal/instrumentation.rb",
+      "lineno": 40,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 104380,
+          "value": "[http://www.example.com/login, {:status=>:see_other}]",
+          "kind": "rest",
+          "size": 2
+        }
+      ],
+      "receiver": {
+        "class": "RelationshipsController",
+        "object_id": 104280,
+        "value": "#<RelationshipsController:0x0000000111a46ac0>"
+      }
+    },
+    {
+      "id": 58,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 104400,
+          "value": "Redirected to http://www.example.com/login\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9000,
+        "value": "#<Logger::LogDevice:0x00000001064f1bc0>"
+      }
+    },
+    {
+      "id": 59,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 58,
+      "elapsed": 0.000006999995093792677,
+      "elapsed_instrumentation": 0.0000219999928958714,
+      "return_value": {
+        "class": "Integer",
+        "value": "43",
+        "object_id": 87
+      }
+    },
+    {
+      "id": 60,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 57,
+      "elapsed": 0.0002579999854788184,
+      "elapsed_instrumentation": 0.000029999995604157448,
+      "return_value": {
+        "class": "String",
+        "value": "<html><body>You are being <a href=\"http://www.example.com/login\">redirected</a>.</body></html>",
+        "object_id": 104420
+      }
+    },
+    {
+      "id": 61,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 104440,
+          "value": "Filter chain halted as :logged_in_user rendered or redirected\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9000,
+        "value": "#<Logger::LogDevice:0x00000001064f1bc0>"
+      }
+    },
+    {
+      "id": 62,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 61,
+      "elapsed": 0.00000500003807246685,
+      "elapsed_instrumentation": 0.00001599994720891118,
+      "return_value": {
+        "class": "Integer",
+        "value": "62",
+        "object_id": 125
+      }
+    },
+    {
+      "id": 63,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 40,
+      "elapsed": 0.0009500000160187483,
+      "elapsed_instrumentation": 0.000024999957531690598,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000000111a36d00 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x0000000111a36f80 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 104460,
+        "size": 2
+      }
+    },
+    {
+      "id": 64,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 104200,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 104260,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000111a372a0>"
+      }
+    },
+    {
+      "id": 65,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 64,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.000016000005416572094,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 104480,
+        "size": 0
+      }
+    },
+    {
+      "id": 66,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 104200,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 104220,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000111a36be8>"
+      }
+    },
+    {
+      "id": 67,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 66,
+      "elapsed": 0.00000200001522898674,
+      "elapsed_instrumentation": 0.000017000013031065464,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000000111a369e0 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 104500,
+        "size": 1
+      }
+    },
+    {
+      "id": 68,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 104520,
+          "value": "Completed 303 See Other in 1ms (ActiveRecord: 0.0ms | Allocations: 1700)\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9000,
+        "value": "#<Logger::LogDevice:0x00000001064f1bc0>"
+      }
+    },
+    {
+      "id": 69,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 68,
+      "elapsed": 0.000005999987479299307,
+      "elapsed_instrumentation": 0.000018000020645558834,
+      "return_value": {
+        "class": "Integer",
+        "value": "73",
+        "object_id": 147
+      }
+    },
+    {
+      "id": 70,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActionDispatch::Request::Session",
+      "method_id": "[]=",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb",
+      "lineno": 150,
+      "static": false,
+      "parameters": [
+        {
+          "name": "key",
+          "class": "String",
+          "object_id": 87740,
+          "value": "flash",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Request::Session",
+        "object_id": 104300,
+        "value": "#<ActionDispatch::Request::Session:0x0000000111954388>"
+      }
+    },
+    {
+      "id": 71,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "String",
+      "method_id": "unpack1",
+      "path": "<internal:pack>",
+      "lineno": 308,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 49080,
+          "value": "H*",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 104540,
+        "value": "_\u0016\u0007_w;\u0001&S_\u0004\n\u0002]__"
+      }
+    },
+    {
+      "id": 72,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 71,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00002700003096833825,
+      "return_value": {
+        "class": "String",
+        "value": "971607d6773b0126539e040a025dbab2",
+        "object_id": 104560
+      }
+    },
+    {
+      "id": 73,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 70,
+      "elapsed": 0.00005400000372901559,
+      "elapsed_instrumentation": 0.00003400002606213093,
+      "return_value": {
+        "class": "Hash",
+        "value": "{discard=>[], flashes=>{danger=>Please log in.}}",
+        "object_id": 104580,
+        "size": 2
+      }
+    },
+    {
+      "id": 74,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActionDispatch::Request::Session",
+      "method_id": "[]",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb",
+      "lineno": 110,
+      "static": false,
+      "parameters": [
+        {
+          "name": "key",
+          "class": "String",
+          "object_id": 87740,
+          "value": "flash",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Request::Session",
+        "object_id": 104300,
+        "value": "#<ActionDispatch::Request::Session:0x0000000111954388>"
+      }
+    },
+    {
+      "id": 75,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 74,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000027999980375170708,
+      "return_value": {
+        "class": "Hash",
+        "value": "{discard=>[], flashes=>{danger=>Please log in.}}",
+        "object_id": 104580,
+        "size": 2
+      }
+    },
+    {
+      "id": 76,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "JSON::Ext::Generator::State",
+      "method_id": "generate",
+      "path": "JSON::Ext::Generator::State#generate",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Hash",
+          "object_id": 104600,
+          "value": "{session_id=>971607d6773b0126539e040a025dbab2, flash=>{discard=>[], flashes=>{danger=>Please log in.}}}",
+          "kind": "req",
+          "size": 2
+        }
+      ],
+      "receiver": {
+        "class": "JSON::Ext::Generator::State",
+        "object_id": 104620,
+        "value": "#<JSON::Ext::Generator::State:0x0000000111a7e880>"
+      }
+    },
+    {
+      "id": 77,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 76,
+      "elapsed": 0.000013999990187585354,
+      "elapsed_instrumentation": 0.00004600000102072954,
+      "return_value": {
+        "class": "String",
+        "value": "{\"session_id\":\"971607d6773b0126539e040a025dbab2\",\"flash\":{\"discard\":[],\"flashes\":{\"danger\":\"Please l (...10 more characters)",
+        "object_id": 104640
+      }
+    },
+    {
+      "id": 78,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::MessageEncryptor",
+      "method_id": "encrypt_and_sign",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/message_encryptor.rb",
+      "lineno": 153,
+      "static": false,
+      "parameters": [
+        {
+          "name": "value",
+          "class": "String",
+          "object_id": 104640,
+          "value": "{\"session_id\":\"971607d6773b0126539e040a025dbab2\",\"flash\":{\"discard\":[],\"flashes\":{\"danger\":\"Please l (...10 more characters)",
+          "kind": "req"
+        },
+        {
+          "name": "expires_at",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        },
+        {
+          "name": "expires_in",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        },
+        {
+          "name": "purpose",
+          "class": "String",
+          "object_id": 104660,
+          "value": "cookie._sample_app_session",
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::MessageEncryptor",
+        "object_id": 104680,
+        "value": "#<ActiveSupport::MessageEncryptor:0x0000000111a27238>"
+      }
+    },
+    {
+      "id": 79,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "encrypt",
+      "path": "OpenSSL::Cipher#encrypt",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 104700,
+          "value": "[]",
+          "kind": "rest",
+          "size": 0
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 104720,
+        "value": "#<OpenSSL::Cipher:0x0000000111a76040>",
+        "labels": [
+          "crypto.algorithm.AES-256-GCM"
+        ]
+      }
+    },
+    {
+      "id": 80,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 79,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000026999972760677338,
+      "return_value": {
+        "class": "OpenSSL::Cipher",
+        "value": "#<OpenSSL::Cipher:0x0000000111a76040>",
+        "object_id": 104720
+      }
+    },
+    {
+      "id": 81,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "key=",
+      "path": "OpenSSL::Cipher#key=",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "String",
+          "object_id": 48920,
+          "value": "s_m__\u0007____9i_____\u0001+_,_;_qZ_|_\u0011)_",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 104720,
+        "value": "#<OpenSSL::Cipher:0x0000000111a76040>"
+      }
+    },
+    {
+      "id": 82,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 81,
+      "elapsed": 0.0000019999570213258266,
+      "elapsed_instrumentation": 0.0000219999928958714,
+      "return_value": {
+        "class": "String",
+        "value": "s_m__\u0007____9i_____\u0001+_,_;_qZ_|_\u0011)_",
+        "object_id": 48920
+      }
+    },
+    {
+      "id": 83,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "random_iv",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/openssl/cipher.rb",
+      "lineno": 55,
+      "static": false,
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 104720,
+        "value": "#<OpenSSL::Cipher:0x0000000111a76040>"
+      }
+    },
+    {
+      "id": 84,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "OpenSSL::Random",
+      "method_id": "random_bytes",
+      "path": "OpenSSL::Random.random_bytes",
+      "static": true,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Integer",
+          "object_id": 25,
+          "value": "12",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 36380,
+        "value": "OpenSSL::Random"
+      }
+    },
+    {
+      "id": 85,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 84,
+      "elapsed": 0.000005999987479299307,
+      "elapsed_instrumentation": 0.0000219999928958714,
+      "return_value": {
+        "class": "String",
+        "value": "__9____\b_}W_",
+        "object_id": 104740
+      }
+    },
+    {
+      "id": 86,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "iv=",
+      "path": "OpenSSL::Cipher#iv=",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "String",
+          "object_id": 104740,
+          "value": "__9____\b_}W_",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 104720,
+        "value": "#<OpenSSL::Cipher:0x0000000111a76040>"
+      }
+    },
+    {
+      "id": 87,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 86,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00001899997005239129,
+      "return_value": {
+        "class": "String",
+        "value": "__9____\b_}W_",
+        "object_id": 104740
+      }
+    },
+    {
+      "id": 88,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 83,
+      "elapsed": 0.000054999953135848045,
+      "elapsed_instrumentation": 0.000014000048395246267,
+      "return_value": {
+        "class": "String",
+        "value": "__9____\b_}W_",
+        "object_id": 104740
+      }
+    },
+    {
+      "id": 89,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "auth_data=",
+      "path": "OpenSSL::Cipher#auth_data=",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "String",
+          "object_id": 49820,
+          "value": "",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 104720,
+        "value": "#<OpenSSL::Cipher:0x0000000111a76040>"
+      }
+    },
+    {
+      "id": 90,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 89,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000014999997802078724,
+      "return_value": {
+        "class": "String",
+        "value": "",
+        "object_id": 49820
+      }
+    },
+    {
+      "id": 91,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 49840,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 104760,
+        "value": "[{\"session_id\":\"971607d6773b0126539e040a025dbab2\",\"flash\":{\"discard\":[],\"flashes\":{\"danger\":\"Please l (...10 more characters)]"
+      }
+    },
+    {
+      "id": 92,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 91,
+      "elapsed": 0.00000200001522898674,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "eyJzZXNzaW9uX2lkIjoiOTcxNjA3ZDY3NzNiMDEyNjUzOWUwNDBhMDI1ZGJhYjIiLCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxh (...48 more characters)",
+        "object_id": 104780
+      }
+    },
+    {
+      "id": 93,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "JSON::Ext::Generator::State",
+      "method_id": "generate",
+      "path": "JSON::Ext::Generator::State#generate",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Hash",
+          "object_id": 104800,
+          "value": "{_rails=>{message=>eyJzZXNzaW9uX2lkIjoiOTcxNjA3ZDY3NzNiMDEyNjUzOWUwNDBhMDI1ZGJhYjIiLCJmbGFzaCI6eyJkaXNjYXJkIjpbXSwiZmxh (...48 more characters), exp=>, pur=>cookie._sample_app_session}}",
+          "kind": "req",
+          "size": 1
+        }
+      ],
+      "receiver": {
+        "class": "JSON::Ext::Generator::State",
+        "object_id": 104820,
+        "value": "#<JSON::Ext::Generator::State:0x0000000111a64f70>"
+      }
+    },
+    {
+      "id": 94,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 93,
+      "elapsed": 0.000008000002708286047,
+      "elapsed_instrumentation": 0.000034999975468963385,
+      "return_value": {
+        "class": "String",
+        "value": "{\"_rails\":{\"message\":\"eyJzZXNzaW9uX2lkIjoiOTcxNjA3ZDY3NzNiMDEyNjUzOWUwNDBhMDI1ZGJhYjIiLCJmbGFzaCI6ey (...119 more characters)",
+        "object_id": 104840
+      }
+    },
+    {
+      "id": 95,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "update",
+      "path": "OpenSSL::Cipher#update",
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 104860,
+          "value": "[{\"_rails\":{\"message\":\"eyJzZXNzaW9uX2lkIjoiOTcxNjA3ZDY3NzNiMDEyNjUzOWUwNDBhMDI1ZGJhYjIiLCJmbGFzaCI6ey (...119 more characters)]",
+          "kind": "rest",
+          "size": 1
+        }
+      ],
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 104720,
+        "value": "#<OpenSSL::Cipher:0x0000000111a76040>"
+      }
+    },
+    {
+      "id": 96,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 95,
+      "elapsed": 0.0001700000138953328,
+      "elapsed_instrumentation": 0.00009699998190626502,
+      "return_value": {
+        "class": "String",
+        "value": "5_\u0003\bh\u0006___Fi\u0001_\u0018_$R(\u001c^_____J\r?\u0013Uv_\u0015__\u0013,_\u0013x_6]__\t_\tH_\u001b\u0006__\u000e____@__T_xN_\u0013\u0010\\N_xh!T\u001c\u0005\u001f-\u0016_\r___\u0002\"w7\u000f_\u0002___X?k_ (...119 more characters)",
+        "object_id": 104880
+      }
+    },
+    {
+      "id": 97,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "OpenSSL::Cipher",
+      "method_id": "final",
+      "path": "OpenSSL::Cipher#final",
+      "static": false,
+      "receiver": {
+        "class": "OpenSSL::Cipher",
+        "object_id": 104720,
+        "value": "#<OpenSSL::Cipher:0x0000000111a76040>"
+      }
+    },
+    {
+      "id": 98,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 97,
+      "elapsed": 0.00000400003045797348,
+      "elapsed_instrumentation": 0.00008200004231184721,
+      "return_value": {
+        "class": "String",
+        "value": "",
+        "object_id": 104900
+      }
+    },
+    {
+      "id": 99,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 49840,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 104920,
+        "value": "[5_\u0003\bh\u0006___Fi\u0001_\u0018_$R(\u001c^_____J\r?\u0013Uv_\u0015__\u0013,_\u0013x_6]__\t_\tH_\u001b\u0006__\u000e____@__T_xN_\u0013\u0010\\N_xh!T\u001c\u0005\u001f-\u0016_\r___\u0002\"w7\u000f_\u0002___X?k_ (...119 more characters)]"
+      }
+    },
+    {
+      "id": 100,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 99,
+      "elapsed": 0.00000400003045797348,
+      "elapsed_instrumentation": 0.0000850000069476664,
+      "return_value": {
+        "class": "String",
+        "value": "NZ0DCGgGhvfnRmkBzxjFJFIoHF7ayb+6mUoNPxNVdqgVwaoTLL8TePI2XZDTCeQJSL0bBrK3Dr2r5+5A1alUh3hOqRMQXE6ueGgh (...192 more characters)",
+        "object_id": 104940
+      }
+    },
+    {
+      "id": 101,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 49840,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 104960,
+        "value": "[__9____\b_}W_]"
+      }
+    },
+    {
+      "id": 102,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 101,
+      "elapsed": 0.00000200001522898674,
+      "elapsed_instrumentation": 0.00006099994061514735,
+      "return_value": {
+        "class": "String",
+        "value": "8fU5s7r4/AjNfVeD",
+        "object_id": 104980
+      }
+    },
+    {
+      "id": 103,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 49840,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 105000,
+        "value": "[_1F\u0011#heQ&___+_\u0016;]"
+      }
+    },
+    {
+      "id": 104,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 103,
+      "elapsed": 0.0000019999570213258266,
+      "elapsed_instrumentation": 0.0000570000265724957,
+      "return_value": {
+        "class": "String",
+        "value": "vDFGESNoZVEm9IixK8sWOw==",
+        "object_id": 105020
+      }
+    },
+    {
+      "id": 105,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 78,
+      "elapsed": 0.0008720000041648746,
+      "elapsed_instrumentation": 0.000034999975468963385,
+      "return_value": {
+        "class": "String",
+        "value": "NZ0DCGgGhvfnRmkBzxjFJFIoHF7ayb+6mUoNPxNVdqgVwaoTLL8TePI2XZDTCeQJSL0bBrK3Dr2r5+5A1alUh3hOqRMQXE6ueGgh (...236 more characters)",
+        "object_id": 105040
+      }
+    },
+    {
+      "id": 106,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActionDispatch::Cookies::CookieJar",
+      "method_id": "[]=",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb",
+      "lineno": 370,
+      "static": false,
+      "parameters": [
+        {
+          "name": "name",
+          "class": "String",
+          "object_id": 49060,
+          "value": "_sample_app_session",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActionDispatch::Cookies::CookieJar",
+        "object_id": 104340,
+        "value": "#<ActionDispatch::Cookies::CookieJar:0x0000000111a2c878>"
+      }
+    },
+    {
+      "id": 107,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 106,
+      "elapsed": 0.000025999965146183968,
+      "elapsed_instrumentation": 0.00009099999442696571,
+      "return_value": {
+        "class": "String",
+        "value": "NZ0DCGgGhvfnRmkBzxjFJFIoHF7ayb+6mUoNPxNVdqgVwaoTLL8TePI2XZDTCeQJSL0bBrK3Dr2r5+5A1alUh3hOqRMQXE6ueGgh (...236 more characters)",
+        "object_id": 105040
+      }
+    },
+    {
+      "id": 108,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 27,
+      "elapsed": 0.009159000008367002,
+      "elapsed_instrumentation": 0.00035200000274926424,
+      "http_server_response": {
+        "status_code": 303,
+        "headers": {
+          "X-Frame-Options": "SAMEORIGIN",
+          "X-XSS-Protection": "0",
+          "X-Content-Type-Options": "nosniff",
+          "X-Download-Options": "noopen",
+          "X-Permitted-Cross-Domain-Policies": "none",
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Location": "http://www.example.com/login",
+          "Content-Type": "text/html; charset=utf-8",
+          "Cache-Control": "no-cache",
+          "Set-Cookie": "_sample_app_session=NZ0DCGgGhvfnRmkBzxjFJFIoHF7ayb%2B6mUoNPxNVdqgVwaoTLL8TePI2XZDTCeQJSL0bBrK3Dr2r5%2B5A1alUh3hOqRMQXE6ueGghVBwFHy0WqA3txaQCInc3D70C4vrUWD9rjaYPiSY%2BNwBn08loCyWiAVpUh%2BLWu33rawFIZYaYX5nSQCvZDXRWnjdORsmhVvEvjJ3cf0OYiESYI5LMo68Ac0yXszD3iTz0kqCT1Y75qJH5Cf2ddxqdXKlyjBZ40JuH0tmerlWYXLoyvEexdRPHP1R0ueFLXqEY--8fU5s7r4%2FAjNfVeD--vDFGESNoZVEm9IixK8sWOw%3D%3D; path=/; HttpOnly; SameSite=Lax",
+          "X-Request-Id": "92526bd9-5483-4d3f-83a6-dd2ff7464db3",
+          "X-Runtime": "0.008986"
+        }
+      }
+    },
+    {
+      "id": 109,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 105080,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 50800,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000111a04b20>"
+      }
+    },
+    {
+      "id": 110,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 109,
+      "elapsed": 0.00008600001456215978,
+      "elapsed_instrumentation": 0.0001039999770000577,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000000111a04238 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x0000000111a04378 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x0000000111a044e0 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x0000000111a04698 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 50820,
+        "size": 4
+      }
+    },
+    {
+      "id": 111,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 105080,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 50800,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000111a04b20>"
+      }
+    },
+    {
+      "id": 112,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 111,
+      "elapsed": 0.0000219999928958714,
+      "elapsed_instrumentation": 0.000055999960750341415,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000000111a04850 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 50840,
+        "size": 1
+      }
+    },
+    {
+      "id": 113,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Kernel",
+      "method_id": "eval",
+      "path": "Kernel#eval",
+      "static": false,
+      "parameters": [
+        {
+          "name": "string",
+          "class": "String",
+          "object_id": 103980,
+          "value": "Relationship.count",
+          "kind": "req"
+        },
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 105120,
+          "value": "[#<Binding:0x0000000111ad6f58>]",
+          "kind": "rest",
+          "size": 1
+        }
+      ],
+      "receiver": {
+        "class": "RelationshipsControllerTest",
+        "object_id": 103820,
+        "value": "#<RelationshipsControllerTest:0x0000000111914878>"
+      }
+    },
+    {
+      "id": 114,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 105140,
+          "value": "  \u001b[1m\u001b[36mCACHE Relationship Count (0.0ms)\u001b[0m  \u001b[1m\u001b[34mSELECT COUNT(*) FROM \"relationships\"\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9000,
+        "value": "#<Logger::LogDevice:0x00000001064f1bc0>"
+      }
+    },
+    {
+      "id": 115,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 114,
+      "elapsed": 0.000009000010322779417,
+      "elapsed_instrumentation": 0.00004499999340623617,
+      "return_value": {
+        "class": "Integer",
+        "value": "99",
+        "object_id": 199
+      }
+    },
+    {
+      "id": 116,
+      "event": "call",
+      "thread_id": 4480,
+      "sql_query": {
+        "sql": "SELECT COUNT(*) FROM \"relationships\"",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 117,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 116,
+      "elapsed": 0.000103,
+      "elapsed_instrumentation": 0.00003100000321865082
+    },
+    {
+      "id": 118,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 113,
+      "elapsed": 0.0008870000019669533,
+      "elapsed_instrumentation": 0.00008899997919797897,
+      "return_value": {
+        "class": "Integer",
+        "value": "4",
+        "object_id": 9
+      }
+    },
+    {
+      "id": 119,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 105160,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 88600,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000114d5f1a0>"
+      }
+    },
+    {
+      "id": 120,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 119,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00002500001573935151,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 88620,
+        "size": 0
+      }
+    },
+    {
+      "id": 121,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 105160,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 88600,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000114d5f1a0>"
+      }
+    },
+    {
+      "id": 122,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 121,
+      "elapsed": 0.0000219999928958714,
+      "elapsed_instrumentation": 0.00002400000812485814,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000000114d5ee30 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x0000000114d5ec50 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 88640,
+        "size": 2
+      }
+    },
+    {
+      "id": 123,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "Logger::LogDevice",
+      "method_id": "write",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/logger/log_device.rb",
+      "lineno": 31,
+      "static": false,
+      "parameters": [
+        {
+          "name": "message",
+          "class": "String",
+          "object_id": 105180,
+          "value": "  \u001b[1m\u001b[36mTRANSACTION (0.0ms)\u001b[0m  \u001b[1m\u001b[31mrollback transaction\u001b[0m\n",
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "Logger::LogDevice",
+        "object_id": 9000,
+        "value": "#<Logger::LogDevice:0x00000001064f1bc0>"
+      }
+    },
+    {
+      "id": 124,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 123,
+      "elapsed": 0.000011000025551766157,
+      "elapsed_instrumentation": 0.000036999990697950125,
+      "return_value": {
+        "class": "Integer",
+        "value": "70",
+        "object_id": 141
+      }
+    },
+    {
+      "id": 125,
+      "event": "call",
+      "thread_id": 4480,
+      "sql_query": {
+        "sql": "rollback transaction",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 126,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 125,
+      "elapsed": 0.000107,
+      "elapsed_instrumentation": 0.000014999997802078724
+    },
+    {
+      "id": 127,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 105200,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 88700,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x00000001065d3340>"
+      }
+    },
+    {
+      "id": 128,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 127,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00002300000051036477,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 88720,
+        "size": 0
+      }
+    },
+    {
+      "id": 129,
+      "event": "call",
+      "thread_id": 4480,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 105200,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 88700,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x00000001065d3340>"
+      }
+    },
+    {
+      "id": 130,
+      "event": "return",
+      "thread_id": 4480,
+      "parent_id": 129,
+      "elapsed": 0.000006999995093792677,
+      "elapsed_instrumentation": 0.000029999995604157448,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x00000001065d2d00 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x00000001065d2b70 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 88740,
+        "size": 2
+      }
+    }
+  ],
+  "version": "1.12.0",
+  "metadata": {
+    "app": "rails-diagram-example",
+    "language": {
+      "name": "ruby",
+      "engine": "ruby",
+      "version": "3.1.2"
+    },
+    "client": {
+      "name": "appmap",
+      "url": "https://github.com/applandinc/appmap-ruby",
+      "version": "0.99.4"
+    },
+    "frameworks": [
+      {
+        "name": "rails",
+        "version": "7.0.4"
+      },
+      {
+        "name": "minitest",
+        "version": "5.15.0"
+      }
+    ],
+    "git": {
+      "repository": "https://github.com/land-of-apps/rails-diagram-example.git",
+      "branch": "main",
+      "commit": "5f91577cd1b2221fd1fdb84e355a95780c17c95e",
+      "git_last_annotated_tag": null,
+      "git_last_tag": null,
+      "git_commits_since_last_annotated_tag": null,
+      "git_commits_since_last_tag": null
+    },
+    "name": "Relationships_controller create should require logged-in user",
+    "source_location": "test/controllers/relationships_controller_test.rb:5",
+    "recorder": {
+      "name": "minitest",
+      "type": "tests"
+    },
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "name": "actionpack",
+      "type": "package",
+      "children": [
+        {
+          "name": "ActionDispatch",
+          "type": "class",
+          "children": [
+            {
+              "name": "Integration",
+              "type": "class",
+              "children": [
+                {
+                  "name": "Runner",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "before_setup",
+                      "type": "function",
+                      "labels": [
+                        "deserialize.safe",
+                        "lang.eval.safe"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/testing/integration.rb:329"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Request",
+              "type": "class",
+              "children": [
+                {
+                  "name": "Session",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "[]",
+                      "type": "function",
+                      "labels": [
+                        "http.session.read"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb:110"
+                    },
+                    {
+                      "name": "[]=",
+                      "type": "function",
+                      "labels": [
+                        "http.session.write"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/request/session.rb:150"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cookies",
+              "type": "class",
+              "children": [
+                {
+                  "name": "CookieJar",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "update",
+                      "type": "function",
+                      "labels": [
+                        "http.session.write"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb:352"
+                    },
+                    {
+                      "name": "[]",
+                      "type": "function",
+                      "labels": [
+                        "http.session.read"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb:336"
+                    },
+                    {
+                      "name": "[]=",
+                      "type": "function",
+                      "labels": [
+                        "http.session.write"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_dispatch/middleware/cookies.rb:370"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ActionController",
+          "type": "class",
+          "children": [
+            {
+              "name": "Instrumentation",
+              "type": "class",
+              "children": [
+                {
+                  "name": "redirect_to",
+                  "type": "function",
+                  "labels": [
+                    "mvc.controller"
+                  ],
+                  "static": false,
+                  "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_controller/metal/instrumentation.rb:40"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "activesupport",
+      "type": "package",
+      "children": [
+        {
+          "name": "ActiveSupport",
+          "type": "class",
+          "children": [
+            {
+              "name": "Callbacks",
+              "type": "class",
+              "children": [
+                {
+                  "name": "CallbackSequence",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "invoke_before",
+                      "type": "function",
+                      "labels": [
+                        "mvc.before_action"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:594"
+                    },
+                    {
+                      "name": "invoke_after",
+                      "type": "function",
+                      "labels": [
+                        "mvc.after_action"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:598"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "MessageEncryptor",
+              "type": "class",
+              "children": [
+                {
+                  "name": "encrypt_and_sign",
+                  "type": "function",
+                  "static": false,
+                  "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/message_encryptor.rb:153"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "logger",
+      "type": "package",
+      "children": [
+        {
+          "name": "Logger",
+          "type": "class",
+          "children": [
+            {
+              "name": "LogDevice",
+              "type": "class",
+              "children": [
+                {
+                  "name": "write",
+                  "type": "function",
+                  "labels": [
+                    "log"
+                  ],
+                  "static": false,
+                  "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/logger/log_device.rb:31"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ruby",
+      "type": "package",
+      "children": [
+        {
+          "name": "Kernel",
+          "type": "class",
+          "children": [
+            {
+              "name": "eval",
+              "type": "function",
+              "labels": [
+                "lang.eval"
+              ],
+              "static": false,
+              "location": "Kernel#eval"
+            }
+          ]
+        },
+        {
+          "name": "String",
+          "type": "class",
+          "children": [
+            {
+              "name": "unpack",
+              "type": "function",
+              "labels": [
+                "string.unpack"
+              ],
+              "static": false,
+              "location": "<internal:pack>:275"
+            },
+            {
+              "name": "unpack1",
+              "type": "function",
+              "labels": [
+                "string.unpack"
+              ],
+              "static": false,
+              "location": "<internal:pack>:308"
+            }
+          ]
+        },
+        {
+          "name": "Array",
+          "type": "class",
+          "children": [
+            {
+              "name": "pack",
+              "type": "function",
+              "labels": [
+                "array.pack"
+              ],
+              "static": false,
+              "location": "<internal:pack>:143"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "app/helpers",
+      "type": "package",
+      "children": [
+        {
+          "name": "SessionsHelper",
+          "type": "class",
+          "children": [
+            {
+              "name": "logged_in?",
+              "type": "function",
+              "static": false,
+              "location": "app/helpers/sessions_helper.rb:40"
+            },
+            {
+              "name": "current_user",
+              "type": "function",
+              "static": false,
+              "location": "app/helpers/sessions_helper.rb:19"
+            },
+            {
+              "name": "store_location",
+              "type": "function",
+              "static": false,
+              "location": "app/helpers/sessions_helper.rb:59"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "json",
+      "type": "package",
+      "children": [
+        {
+          "name": "JSON",
+          "type": "class",
+          "children": [
+            {
+              "name": "Ext",
+              "type": "class",
+              "children": [
+                {
+                  "name": "Generator",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "State",
+                      "type": "class",
+                      "children": [
+                        {
+                          "name": "generate",
+                          "type": "function",
+                          "labels": [
+                            "format.json.generate",
+                            "serialize"
+                          ],
+                          "static": false,
+                          "location": "JSON::Ext::Generator::State#generate"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "openssl",
+      "type": "package",
+      "children": [
+        {
+          "name": "OpenSSL",
+          "type": "class",
+          "children": [
+            {
+              "name": "Cipher",
+              "type": "class",
+              "children": [
+                {
+                  "name": "encrypt",
+                  "type": "function",
+                  "labels": [
+                    "crypto.encrypt"
+                  ],
+                  "static": false,
+                  "location": "OpenSSL::Cipher#encrypt"
+                },
+                {
+                  "name": "key=",
+                  "type": "function",
+                  "labels": [
+                    "crypto.set_key"
+                  ],
+                  "static": false,
+                  "location": "OpenSSL::Cipher#key="
+                },
+                {
+                  "name": "random_iv",
+                  "type": "function",
+                  "static": false,
+                  "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/openssl/cipher.rb:55"
+                },
+                {
+                  "name": "iv=",
+                  "type": "function",
+                  "labels": [
+                    "crypto.set_iv"
+                  ],
+                  "static": false,
+                  "location": "OpenSSL::Cipher#iv="
+                },
+                {
+                  "name": "auth_data=",
+                  "type": "function",
+                  "labels": [
+                    "crypto.set_auth_data"
+                  ],
+                  "static": false,
+                  "location": "OpenSSL::Cipher#auth_data="
+                },
+                {
+                  "name": "update",
+                  "type": "function",
+                  "static": false,
+                  "location": "OpenSSL::Cipher#update"
+                },
+                {
+                  "name": "final",
+                  "type": "function",
+                  "labels": [
+                    "crypto.final"
+                  ],
+                  "static": false,
+                  "location": "OpenSSL::Cipher#final"
+                }
+              ]
+            },
+            {
+              "name": "Random",
+              "type": "class",
+              "children": [
+                {
+                  "name": "random_bytes",
+                  "type": "function",
+                  "labels": [
+                    "random.secure"
+                  ],
+                  "static": true,
+                  "location": "OpenSSL::Random.random_bytes"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "database",
+      "name": "Database",
+      "children": [
+        {
+          "type": "query",
+          "name": "begin transaction"
+        },
+        {
+          "type": "query",
+          "name": "SELECT COUNT(*) FROM \"relationships\""
+        },
+        {
+          "type": "query",
+          "name": "rollback transaction"
+        }
+      ]
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "POST /relationships"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  "arg",
+  "args",
+  "buffer",
+  "expires_at",
+  "expires_in",
+  "fmt",
+  "key",
+  "message",
+  "name",
+  "offset",
+  "on_rotation",
+  "options",
+  "other_hash",
+  "purpose",
+  "value"
+]

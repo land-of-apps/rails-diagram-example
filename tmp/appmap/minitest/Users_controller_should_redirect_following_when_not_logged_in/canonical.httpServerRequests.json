@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /users/{id}/following",
+    "parameters": "()",
+    "status": 303
+  }
+]

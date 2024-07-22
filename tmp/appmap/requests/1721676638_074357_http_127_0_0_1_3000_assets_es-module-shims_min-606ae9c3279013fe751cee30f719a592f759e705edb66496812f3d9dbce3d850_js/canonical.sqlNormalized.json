@@ -1,0 +1,8 @@
+[
+  "PRAGMA foreign_keys = ON",
+  "PRAGMA table_info(\"schema_migrations\")",
+  "SELECT \"schema_migrations\".\"version\" FROM \"schema_migrations\" ORDER BY \"schema_migrations\".\"version\" ASC",
+  "SELECT name FROM sqlite_master WHERE name <> ? AND name = ? AND type IN (?,?)",
+  "SELECT sql FROM\n  (SELECT * FROM sqlite_master UNION ALL\n   SELECT * FROM sqlite_temp_master)\nWHERE type = ? AND name = ?\n",
+  "SELECT sqlite_version(*)"
+]

@@ -1,0 +1,11 @@
+[
+  "DELETE FROM \"relationships\" WHERE \"relationships\".\"follower_id\" = ? AND \"relationships\".\"followed_id\" = ?",
+  "INSERT INTO \"relationships\" (\"follower_id\", \"followed_id\", \"created_at\", \"updated_at\") VALUES (?, ?, ?, ?)",
+  "RELEASE SAVEPOINT active_record_1",
+  "SAVEPOINT active_record_1",
+  "SELECT ? AS one FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? AND \"users\".\"id\" = ? LIMIT ?",
+  "SELECT ? AS one FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ? AND \"users\".\"id\" = ? LIMIT ?",
+  "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+  "begin transaction",
+  "rollback transaction"
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "caller": "HTTP server requests",
+    "callee": "Database"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "activesupport"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "ruby"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "sprockets"
+  },
+  {
+    "caller": "activesupport",
+    "callee": "railties"
+  },
+  {
+    "caller": "activesupport",
+    "callee": "ruby"
+  },
+  {
+    "caller": "railties",
+    "callee": "psych"
+  },
+  {
+    "caller": "railties",
+    "callee": "ruby"
+  },
+  {
+    "caller": "sprockets",
+    "callee": "ruby"
+  }
+]

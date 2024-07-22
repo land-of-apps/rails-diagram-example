@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
+gem 'appmap', :groups => [:development, :test]
+
 gem "rails",                      "7.0.4"
 gem "image_processing",           "1.12.2"
 gem "active_storage_validations", "0.9.8"
@@ -21,7 +23,7 @@ gem "puma",                       "5.6.4"
 gem "bootsnap",                   "1.12.0", require: false
 
 group :development, :test do
-  gem "sqlite3", "1.4.2"
+  gem "sqlite3", "1.5.0"
   gem "debug",   "1.5.0", platforms: %i[ mri mingw x64_mingw ]
 end
 

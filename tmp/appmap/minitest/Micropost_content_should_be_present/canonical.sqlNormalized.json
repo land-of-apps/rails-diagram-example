@@ -1,0 +1,7 @@
+[
+  "PRAGMA table_info(\"active_storage_attachments\")",
+  "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+  "SELECT sql FROM\n  (SELECT * FROM sqlite_master UNION ALL\n   SELECT * FROM sqlite_temp_master)\nWHERE type = ? AND name = ?\n",
+  "begin transaction",
+  "rollback transaction"
+]

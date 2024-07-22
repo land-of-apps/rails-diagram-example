@@ -1,0 +1,20 @@
+[
+  "arg",
+  "buffer",
+  "email",
+  "expires_at",
+  "expires_in",
+  "fmt",
+  "key",
+  "message",
+  "name",
+  "offset",
+  "other_hash",
+  "password",
+  "purpose",
+  "remember_me",
+  "session",
+  "string",
+  "user",
+  "value"
+]

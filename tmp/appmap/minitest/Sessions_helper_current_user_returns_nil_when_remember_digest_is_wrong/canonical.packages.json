@@ -1,0 +1,10 @@
+[
+  "actionpack",
+  "activesupport",
+  "app/helpers",
+  "app/models",
+  "json",
+  "logger",
+  "openssl",
+  "ruby"
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /assets",
+    "parameters": "()",
+    "status": 200
+  }
+]

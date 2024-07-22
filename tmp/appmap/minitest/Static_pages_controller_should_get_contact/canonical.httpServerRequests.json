@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /contact",
+    "parameters": "()",
+    "status": 200
+  }
+]

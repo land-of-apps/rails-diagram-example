@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /users",
+    "parameters": "()",
+    "status": 303
+  }
+]

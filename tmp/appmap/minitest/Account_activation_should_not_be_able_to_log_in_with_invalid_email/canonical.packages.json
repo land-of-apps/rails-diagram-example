@@ -1,0 +1,13 @@
+[
+  "actionpack",
+  "actionview",
+  "activesupport",
+  "app/controllers",
+  "app/mailers",
+  "app/models",
+  "app/views",
+  "json",
+  "logger",
+  "openssl",
+  "ruby"
+]

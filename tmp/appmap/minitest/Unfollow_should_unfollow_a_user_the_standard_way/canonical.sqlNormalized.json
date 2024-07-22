@@ -1,0 +1,9 @@
+[
+  "DELETE FROM \"relationships\" WHERE \"relationships\".\"follower_id\" = ? AND \"relationships\".\"followed_id\" = ?",
+  "RELEASE SAVEPOINT active_record_1",
+  "SAVEPOINT active_record_1",
+  "SELECT \"relationships\".* FROM \"relationships\" WHERE \"relationships\".\"id\" = ? LIMIT ?",
+  "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"email\" = ? LIMIT ?",
+  "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+  "UPDATE \"users\" SET \"updated_at\" = ?, \"remember_digest\" = ? WHERE \"users\".\"id\" = ?"
+]

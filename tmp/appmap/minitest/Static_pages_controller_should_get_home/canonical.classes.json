@@ -1,0 +1,16 @@
+[
+  "actionpack/ActionController::Renderers",
+  "actionpack/ActionDispatch::Cookies::CookieJar",
+  "actionpack/ActionDispatch::Request::Session",
+  "actionview/ActionView::Resolver",
+  "activesupport/ActiveSupport::Callbacks::CallbackSequence",
+  "app/controllers/StaticPagesController",
+  "app/helpers/ApplicationHelper",
+  "app/helpers/SessionsHelper",
+  "app/views/app_views_layouts__footer_html_erb",
+  "app/views/app_views_layouts__header_html_erb",
+  "app/views/app_views_layouts__shim_html_erb",
+  "app/views/app_views_static_pages_home_html_erb",
+  "logger/Logger::LogDevice",
+  "ruby/String"
+]

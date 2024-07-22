@@ -1,0 +1,66 @@
+[
+  {
+    "caller": "GET /assets",
+    "callee": "PRAGMA foreign_keys = ON"
+  },
+  {
+    "caller": "GET /assets",
+    "callee": "PRAGMA table_info(\"schema_migrations\")"
+  },
+  {
+    "caller": "GET /assets",
+    "callee": "SELECT \"schema_migrations\".\"version\" FROM \"schema_migrations\" ORDER BY \"schema_migrations\".\"version\" ASC"
+  },
+  {
+    "caller": "GET /assets",
+    "callee": "SELECT name FROM sqlite_master WHERE name <> 'sqlite_sequence' AND name = 'schema_migrations' AND type IN ('table','view')"
+  },
+  {
+    "caller": "GET /assets",
+    "callee": "SELECT sql FROM\n  (SELECT * FROM sqlite_master UNION ALL\n   SELECT * FROM sqlite_temp_master)\nWHERE type = 'table' AND name = 'schema_migrations'\n"
+  },
+  {
+    "caller": "GET /assets",
+    "callee": "SELECT sqlite_version(*)"
+  },
+  {
+    "caller": "GET /assets",
+    "callee": "activesupport/ActiveSupport"
+  },
+  {
+    "caller": "GET /assets",
+    "callee": "ruby/Array"
+  },
+  {
+    "caller": "GET /assets",
+    "callee": "ruby/String"
+  },
+  {
+    "caller": "GET /assets",
+    "callee": "sprockets/Sprockets"
+  },
+  {
+    "caller": "activesupport/ActiveSupport",
+    "callee": "railties/Rails"
+  },
+  {
+    "caller": "activesupport/ActiveSupport",
+    "callee": "ruby/String"
+  },
+  {
+    "caller": "railties/Rails",
+    "callee": "psych/Psych"
+  },
+  {
+    "caller": "railties/Rails",
+    "callee": "ruby/ERB"
+  },
+  {
+    "caller": "ruby/ERB",
+    "callee": "ruby/Kernel"
+  },
+  {
+    "caller": "sprockets/Sprockets",
+    "callee": "ruby/Marshal"
+  }
+]

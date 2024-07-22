@@ -1,0 +1,14 @@
+[
+  "actionpack/ActionController::Instrumentation",
+  "actionpack/ActionDispatch::Cookies::CookieJar",
+  "actionpack/ActionDispatch::Request::Session",
+  "activesupport/ActiveSupport::Callbacks::CallbackSequence",
+  "activesupport/ActiveSupport::MessageEncryptor",
+  "app/helpers/SessionsHelper",
+  "json/JSON::Ext::Generator::State",
+  "logger/Logger::LogDevice",
+  "openssl/OpenSSL::Cipher",
+  "openssl/OpenSSL::Random",
+  "ruby/Array",
+  "ruby/String"
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "caller": "activesupport",
+    "callee": "Database"
+  },
+  {
+    "caller": "activesupport",
+    "callee": "logger"
+  },
+  {
+    "caller": "app/models",
+    "callee": "Database"
+  },
+  {
+    "caller": "app/models",
+    "callee": "activesupport"
+  },
+  {
+    "caller": "app/models",
+    "callee": "logger"
+  }
+]

@@ -1,0 +1,649 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "event": "call",
+      "thread_id": 23880,
+      "http_server_request": {
+        "request_method": "GET",
+        "path_info": "/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js",
+        "normalized_path_info": "/assets",
+        "headers": {
+          "Version": "HTTP/1.1",
+          "Host": "127.0.0.1:3000",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0",
+          "Accept": "*/*",
+          "Accept-Language": "en-US,en;q=0.5",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Referer": "http://127.0.0.1:3000/assets/stimulus-loading-1fc59770fb1654500044afd3f5f6d7d00800e5be36746d55b94a2963a7a228aa.js",
+          "Dnt": "1",
+          "Sec-Gpc": "1",
+          "Connection": "keep-alive",
+          "Cookie": "csrftoken=7r7pE1OdMdnWpH6QZgxTG04dkfrxsXZC; sessionid=vb09147ow9kt0lfkqtf4vtqzdsqjhau3; _sample_app_session=Y3oq6kYv7pcPtQM4ek7SwdnTvDflTsNmUqWgMJqyOF1gbmD630lfMsJGBPiwDy0y3UbN2CtJfusreId0%2BkSHtFQ1N7cysqhRVzLmcKjEdTyfibG17WZN4XwcQ%2Bgj9LprfcAU%2Bo2Q0vy0bgHdbISYNsnnCVvifUP5pXff%2FJzgeGjWAH1bbB%2FJkz758wpl1vGV2uG0J1lZhU9JinJti3kg%2BXyQQi2Mj%2FMt%2BWKAkobHcL4iMbC5vkFKCSMzB01FEUmcJa%2BWAIhLLSz8qXHJSmrr5bvx%2BfmVWGTGkQOM--%2FmUfTDGihVZwM%2B46--hd026mVm8bmwsbLoCLIzGA%3D%3D",
+          "Sec-Fetch-Dest": "script",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Site": "same-origin"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 104760,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 35560,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x000000011458cfb8>"
+      }
+    },
+    {
+      "id": 3,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 2,
+      "elapsed": 0.0008699999889358878,
+      "elapsed_instrumentation": 0.00007999996887519956,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x000000011458c108 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x000000011458c2c0 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x000000011458c400 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x000000011458c608 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x000000011458c7c0 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x000000011458c978 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 36740,
+        "size": 6
+      }
+    },
+    {
+      "id": 4,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 104760,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 35560,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x000000011458cfb8>"
+      }
+    },
+    {
+      "id": 5,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 4,
+      "elapsed": 9.999494068324566e-7,
+      "elapsed_instrumentation": 0.000020000035874545574,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 36760,
+        "size": 0
+      }
+    },
+    {
+      "id": 6,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "String",
+      "method_id": "unpack",
+      "path": "<internal:pack>",
+      "lineno": 275,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 36780,
+          "value": "NnnnnN",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 104780,
+        "value": "_t_3___\u0013?L_\u0019\u0007\u001ap_"
+      }
+    },
+    {
+      "id": 7,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 6,
+      "elapsed": 0.00000200001522898674,
+      "elapsed_instrumentation": 0.000035999983083456755,
+      "return_value": {
+        "class": "Array",
+        "value": "[3077885747, 63405, 49171, 16204, 53529, 119173275]",
+        "object_id": 104800,
+        "size": 6
+      }
+    },
+    {
+      "id": 8,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 104820,
+        "value": "[\u0004__*_\u0004_\u0004\u0000___F_C_YI\fN__\u0013T_'$___(]"
+      }
+    },
+    {
+      "id": 9,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 8,
+      "elapsed": 0.0000029999646358191967,
+      "elapsed_instrumentation": 0.00005400000372901559,
+      "return_value": {
+        "class": "String",
+        "value": "BH+euiqABPAEAIOkrkbHQ51ZSQxOgdoTVPQnJNar7yg=",
+        "object_id": 104840
+      }
+    },
+    {
+      "id": 10,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 104860,
+        "value": "[_s__?\u0017:_YR_>_:W\u0000__7__cu&N__B_7__]"
+      }
+    },
+    {
+      "id": 11,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 10,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000023999949917197227,
+      "return_value": {
+        "class": "String",
+        "value": "uXOxvD8XOudZUsU+hzpXANLIN8P0Y3UmTrqLQo83zN4=",
+        "object_id": 104880
+      }
+    },
+    {
+      "id": 12,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Sprockets::EncodingUtils",
+      "method_id": "unmarshaled_deflated",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/sprockets-4.2.0/lib/sprockets/encoding_utils.rb",
+      "lineno": 39,
+      "static": true,
+      "parameters": [
+        {
+          "name": "str",
+          "class": "String",
+          "object_id": 104900,
+          "value": "\u0004\b[\u0007o:\bSet\u0006:\n@hash}\u000bI\"\u0018environment-version\u0006:\u0006ETTI\"\u0016environment-paths\u0006;\u0007TTI\"\u000erails-env\u0006;\u0007TTI\"Lprocess (...258 more characters)",
+          "kind": "req"
+        },
+        {
+          "name": "window_bits",
+          "class": "Integer",
+          "object_id": 31,
+          "value": "15",
+          "kind": "opt"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 5680,
+        "value": "Sprockets::EncodingUtils"
+      }
+    },
+    {
+      "id": 13,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Marshal",
+      "method_id": "load",
+      "path": "<internal:marshal>",
+      "lineno": 33,
+      "static": true,
+      "parameters": [
+        {
+          "name": "source",
+          "class": "String",
+          "object_id": 104900,
+          "value": "\u0004\b[\u0007o:\bSet\u0006:\n@hash}\u000bI\"\u0018environment-version\u0006:\u0006ETTI\"\u0016environment-paths\u0006;\u0007TTI\"\u000erails-env\u0006;\u0007TTI\"Lprocess (...258 more characters)",
+          "kind": "req"
+        },
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 104920,
+          "value": "[]",
+          "kind": "rest",
+          "size": 0
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 39080,
+        "value": "Marshal"
+      }
+    },
+    {
+      "id": 14,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 13,
+      "elapsed": 0.000014999997802078724,
+      "elapsed_instrumentation": 0.00005199998850002885,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Set: {\"environment-version\", \"environment-paths\", \"rails-env\", \"processors:type=application/javasc, #<Set: {\"environment-version\", \"environment-paths\", \"rails-env\", \"processors:type=application/javasc]",
+        "object_id": 104980,
+        "size": 2
+      }
+    },
+    {
+      "id": 15,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 12,
+      "elapsed": 0.00007499998901039362,
+      "elapsed_instrumentation": 0.000041000021155923605,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Set: {\"environment-version\", \"environment-paths\", \"rails-env\", \"processors:type=application/javasc, #<Set: {\"environment-version\", \"environment-paths\", \"rails-env\", \"processors:type=application/javasc]",
+        "object_id": 104980,
+        "size": 2
+      }
+    },
+    {
+      "id": 16,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 105000,
+        "value": "[\u0004__*_\u0004_\u0004\u0000___F_C_YI\fN__\u0013T_'$___(]"
+      }
+    },
+    {
+      "id": 17,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 16,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000025999965146183968,
+      "return_value": {
+        "class": "String",
+        "value": "BH+euiqABPAEAIOkrkbHQ51ZSQxOgdoTVPQnJNar7yg=",
+        "object_id": 105020
+      }
+    },
+    {
+      "id": 18,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 105040,
+        "value": "[__!___P____K_{__'\n_M__I_;~_J_dp_]"
+      }
+    },
+    {
+      "id": 19,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 18,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.0000219999928958714,
+      "return_value": {
+        "class": "String",
+        "value": "xeQhkKDWULqln7tL0XumoicKz02/8kmPO36QSvdkcJI=",
+        "object_id": 105060
+      }
+    },
+    {
+      "id": 20,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 105080,
+        "value": "[_\u0018$\u001bJ0,_w\u001fE_\t}_\\TC\u0003_\u0010\u0011H__\u0011___%<_]"
+      }
+    },
+    {
+      "id": 21,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 20,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "zhgkG0owLPR3H0XXCX2lXFRDA4AQEUiOmxGf454lPJw=",
+        "object_id": 105100
+      }
+    },
+    {
+      "id": 22,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 1,
+      "elapsed": 0.006126000022049993,
+      "elapsed_instrumentation": 0.00035099993692710996,
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "content-length": "158",
+          "content-type": "application/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "\"549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554\"",
+          "X-Request-Id": "b774cf33-f7ad-4013-bf4c-d119071a709b",
+          "X-Runtime": "0.005113",
+          "Server-Timing": ""
+        }
+      }
+    }
+  ],
+  "version": "1.12.0",
+  "metadata": {
+    "app": "rails-diagram-example",
+    "language": {
+      "name": "ruby",
+      "engine": "ruby",
+      "version": "3.1.2"
+    },
+    "client": {
+      "name": "appmap",
+      "url": "https://github.com/applandinc/appmap-ruby",
+      "version": "0.99.4"
+    },
+    "frameworks": [
+      {
+        "name": "rails",
+        "version": "7.0.4"
+      }
+    ],
+    "git": {
+      "repository": "https://github.com/land-of-apps/rails-diagram-example.git",
+      "branch": "main",
+      "commit": "5f91577cd1b2221fd1fdb84e355a95780c17c95e",
+      "git_last_annotated_tag": null,
+      "git_last_tag": null,
+      "git_commits_since_last_annotated_tag": null,
+      "git_commits_since_last_tag": null
+    },
+    "name": "GET /assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js (200) - 15:30:38.247",
+    "timestamp": 1721676638.247961,
+    "recorder": {
+      "name": "rack",
+      "type": "requests"
+    }
+  },
+  "classMap": [
+    {
+      "name": "activesupport",
+      "type": "package",
+      "children": [
+        {
+          "name": "ActiveSupport",
+          "type": "class",
+          "children": [
+            {
+              "name": "Callbacks",
+              "type": "class",
+              "children": [
+                {
+                  "name": "CallbackSequence",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "invoke_before",
+                      "type": "function",
+                      "labels": [
+                        "mvc.before_action"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:594"
+                    },
+                    {
+                      "name": "invoke_after",
+                      "type": "function",
+                      "labels": [
+                        "mvc.after_action"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:598"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ruby",
+      "type": "package",
+      "children": [
+        {
+          "name": "String",
+          "type": "class",
+          "children": [
+            {
+              "name": "unpack",
+              "type": "function",
+              "labels": [
+                "string.unpack"
+              ],
+              "static": false,
+              "location": "<internal:pack>:275"
+            }
+          ]
+        },
+        {
+          "name": "Array",
+          "type": "class",
+          "children": [
+            {
+              "name": "pack",
+              "type": "function",
+              "labels": [
+                "array.pack"
+              ],
+              "static": false,
+              "location": "<internal:pack>:143"
+            }
+          ]
+        },
+        {
+          "name": "Marshal",
+          "type": "class",
+          "children": [
+            {
+              "name": "load",
+              "type": "function",
+              "labels": [
+                "deserialize.unsafe"
+              ],
+              "static": true,
+              "location": "<internal:marshal>:33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sprockets",
+      "type": "package",
+      "children": [
+        {
+          "name": "Sprockets",
+          "type": "class",
+          "children": [
+            {
+              "name": "EncodingUtils",
+              "type": "class",
+              "children": [
+                {
+                  "name": "unmarshaled_deflated",
+                  "type": "function",
+                  "labels": [
+                    "deserialize.safe"
+                  ],
+                  "static": true,
+                  "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/sprockets-4.2.0/lib/sprockets/encoding_utils.rb:39"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /assets"
+        }
+      ]
+    }
+  ]
+}

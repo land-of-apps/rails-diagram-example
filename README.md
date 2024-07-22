@@ -1,144 +1,174 @@
-# Ruby on Rails Tutorial sample application
+# How to use this repo
 
-This is the sample application for the
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](https://www.railstutorial.org/)
-by [Michael Hartl](https://www.michaelhartl.com/).
+This project is a fork of the [Rails Tutorial 7th Edition](https://github.com/learnenough/rails_tutorial_sample_app_7th_ed) project. You can view the original [README here](OLD_README.md). 
+This an ideal Ruby project to use with the [AppMap Navie](https://appmap.io/navie/) AI Architect.
 
-See also the [6th edition README](https://github.com/learnenough/sample_app_6th_ed#readme).
+You can use this project to ask various questions of AppMap Navie using the `@diagram` command prefix.  
+This will generate Mermaid diagrams that you can use within GitHub Issues & Pull Requests, or otherwise share 
+with members of your team. 
 
-## License
 
-All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
-is available jointly under the MIT License and the Beerware License. See
-[LICENSE.md](LICENSE.md) for details.
+## Example Diagrams
+- [Sequence Diagram](#sequence-diagram)
+- [Entity Relationship](#entity-relationship)
+- [Flow Chart](#flow-chart)
+- [Class Map](#class-map)
 
-## Getting started
-
-To get started with the app, clone the repo and then install the needed gems. You can clone the repo as follows:
-
-```
-$ git clone https://github.com/learnenough/rails_tutorial_sample_app_7th_ed 
-$ cd rails_tutorial_sample_app_7th_ed/
-```
-
-To install the gems, you will need the same versions of Ruby and Bundler used to build the sample app, which you can find using the `cat` and `tail` commands as follows:
+### Sequence Diagram
 
 ```
-$ cat .ruby-version
-<Ruby version number>
-$ tail -n1 Gemfile.lock
-   <Bundler version number>
+@diagram the steps that happen when a user logs into my service.
 ```
 
-Next, install the versions of `ruby` and the `bundler` gem from the above commands. The Ruby installation is system-dependent; on the cloud IDE recommended in the tutorial, it can be installed as follows:
-
-```
-$ rvm get stable
-$ rvm install <Ruby version number>
-$ rvm --default use <Ruby version number>
-```
-
-See the section [Up and running](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial#sec-up_and_running) for more details. Once Ruby is installed, the `bundler` gem can be installed using the `gem` command:
-
-```
-$ gem install bundler -v <version number>
-```
-
-Then the rest of the necessary gems can be installed with `bundle` (taking care to skip any production gems in the development environment):
-
-```
-$ bundle _<version number>_ config set --local without 'production'
-$ bundle _<version number>_ install
-```
-
-Here you should replace `<version number>` with the actual version number. For example, if `<version number>` is `2.3.14`, then the commands should look like this:
-
-```
-$ gem install bundler -v 2.3.14
-$ bundle _2.3.14_ config set --local without 'production'
-$ bundle _2.3.14_ install
-```
-
-If you run into any trouble, you can remove `Gemfile.lock` and rebundle at any time:
-
-```
-$ rm -f Gemfile.lock
-$ bundle install
+```mermaid
+sequenceDiagram
+    participant User as "User"
+    participant Browser as "Browser"
+    participant App as "Application"
+    participant DB as "Database"
+    
+    User->>Browser: Navigate to login page
+    Browser->>App: GET /login
+    App->>Browser: Render login form
+    
+    User->>Browser: Submit login form
+    Browser->>App: POST /login with email and password
+    App->>DB: SELECT user by email
+    DB->>App: Return user record
+    App->>User: check password, authenticated?
+    
+    opt valid credentials
+        App->>DB: Update last login timestamp
+        DB->>App: Success
+        App->>Browser: Set cookie with session token
+        App->>Browser: Redirect to user dashboard
+    end
+    
+    opt invalid credentials
+        App->>Browser: Render login form with error
+    end
 ```
 
-Next, migrate the database:
+![Navie Sequence Diagram](navie-ruby-sequence-diagram.png)
+
+### Entity Relationship
 
 ```
-$ rails db:migrate
+@diagram the entitiy relationships between the major parts of my data such as users, followers, following, and microposts.
 ```
 
-Finally, run the test suite to verify that everything is working correctly:
+```mermaid
+erDiagram
+  USER {
+    int id
+    string name
+    string email
+    string remember_token
+    string activation_token
+    string reset_token
+  }
 
-```
-$ rails test
-```
+  RELATIONSHIP {
+    int id
+    int follower_id
+    int followed_id
+    datetime created_at
+    datetime updated_at
+  }
 
-If the test suite passes, you’ll be ready to seed the database with sample users and run the app in a local server:
+  MICROPPOST {
+    int id
+    int user_id
+    text content
+    datetime created_at
+    datetime updated_at
+  }
 
-```
-$ rails db:seed
-$ rails server
-```
+  USER ||--o{ MICROPPOST : writes
+  USER ||--o{ RELATIONSHIP : follows
+  USER ||--o{ RELATIONSHIP : followed_by
 
-Follow the instructions in [Section 1.2.2 `rails server`](https://www.railstutorial.org/book#sec-rails_server) to view the app. You can then register a new user or log in as the sample administrative user with the email `example@railstutorial.org` and password `foobar`.
-
-## Deploying
-
-To deploy the sample app to production, you’ll need a Heroku account as discussed [Section 1.4 Deploying](https://www.railstutorial.org/book/beginning#sec-deploying).
-
-The full production app includes several advanced features, including sending email with [SendGrid](https://sendgrid.com/) and storing uploaded images with [AWS S3](https://aws.amazon.com/s3/). As a result, deploying the full sample app can be rather challenging. The suggested method for testing a deployment is to use the branch for Chapter 10 (“Updating users”), which doesn’t require more advanced settings but still includes sample users.
-
-To deploy this version of the app, you’ll need to create a new Heroku application, switch to the right branch, push up the source, run the migrations, and seed the database with sample users:
-
-```
-$ heroku create
-$ git checkout updating-users
-$ git push heroku updating-users:main
-$ heroku run rails db:migrate
-$ heroku run rails db:seed
-```
-
-Visiting the URL returned by the original `heroku create` should now show you the sample app running in production. As with the local version, you can then register a new user or log in as the sample administrative user with the email `example@railstutorial.org` and password `foobar`.
-
-## Branches
-
-The reference app repository includes a separate branch for each chapter in the tutorial (Chapters 3–14). To examine the code as it appears at the end of a particular chapter (with some slight variations, such as occasional exercise answers), simply check out the corresponding branch using `git checkout`:
-
-```
-$ git checkout <branch name>
+  RELATIONSHIP }o--|| USER : follower
+  RELATIONSHIP }o--|| USER : followed
 ```
 
-A full list of branch names appears as follows (preceded the number of the corresponding chapter in the book):
+![Navie Entity Relationship](navie-ruby-entity-relationship.png)
+
+### Flow Chart
 
 ```
- 3. static-pages
- 4. rails-flavored-ruby
- 5. filling-in-layout
- 6. modeling-users
- 7. sign-up
- 8. basic-login
- 9. advanced-login
-10. updating-users
-11. account-activation
-12. password-reset
-13. user-microposts
-14. following-users
+@diagram a flow chart of what happens when a user posts a new micropost
 ```
 
-For example, to check out the branch for Chapter 7, you would run this at the command line:
-
+```mermaid
+flowchart TD
+    A["POST /microposts"] --> B{"User logged in?"}
+    B -->|No| C["Redirect to login page"]
+    B -->|Yes| D["current_user"]
+    D --> E["current_user.microposts.build(micropost_params)"]
+    E --> F["Attach image to micropost"]
+    F --> G{"Micropost save?"}
+    G -->|No| H["Fetch current user's feed"]
+    H --> I["Paginate feed items"]
+    I --> J["Render static_pages/home"]
+    G -->|Yes| K["Flash success message: 'Micropost created!'"]
+    K --> L["Redirect to root_url"]
 ```
-$ git checkout sign-up
+
+![Navie Flow Chart](navie-ruby-flow-chart.png)
+
+### Class Map
+```
+@diagram a class map of the users, followers, and microposts
 ```
 
-## Help with the Rails Tutoiral
+```mermaid
+classDiagram
+  direction LR
 
-Experience shows that comparing code with the reference app is often helpful for debugging errors and tracking down discrepancies. For additional assistance with any issues in the tutorial, please consult the [Rails Tutorial Help page](https://github.com/learnenough/rails_tutorial_sample_app_7th_ed/blob/main/HELP.md).
+  class User {
+      +id: int
+      +name: string
+      +email: string
+      +remember_digest: string
+      +session_token() string
+      +remember() string
+      +follow(other_user: User)
+      +unfollow(other_user: User)
+      +following?(other_user: User) bool
+      +microposts: List~Micropost~
+  }
 
-Suspected errors, typos, and bugs can be emailed to <michael@learnenough.com>. All such reports are gratefully received, but please double-check with the [online version of the tutorial](https://www.railstutorial.org/book) and this reference app before submitting.
+  class Micropost {
+      +id: int
+      +content: string
+      +user_id: int
+      +created_at: datetime
+      +updated_at: datetime
+  }
+
+  class Relationship {
+      +id: int
+      +follower_id: int
+      +followed_id: int
+      +created_at: datetime
+      +updated_at: datetime
+  }
+
+  class SessionsHelper {
+      +current_user?(user: User) bool
+      +logged_in?() bool
+      +forget(user: User)
+      +log_out()
+  }
+
+  class UsersHelper {
+      +gravatar_for(user: User, options: dict): string
+  }
+
+  User "1" --> "*" Micropost
+  User "1" --> "*" Relationship : follower
+  User "1" --> "*" Relationship : followed
+```
+
+![Navie Class Map](navie-ruby-class-map.png)

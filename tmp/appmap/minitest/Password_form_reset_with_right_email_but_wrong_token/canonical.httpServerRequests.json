@@ -1,0 +1,12 @@
+[
+  {
+    "route": "GET /password_resets/{id}/edit",
+    "parameters": "(email)",
+    "status": 302
+  },
+  {
+    "route": "POST /password_resets",
+    "parameters": "(password_reset)",
+    "status": 302
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "app": "rails-diagram-example",
+  "language": {
+    "name": "ruby",
+    "engine": "ruby",
+    "version": "3.1.2"
+  },
+  "client": {
+    "name": "appmap",
+    "url": "https://github.com/applandinc/appmap-ruby",
+    "version": "0.99.4"
+  },
+  "frameworks": [
+    {
+      "name": "rails",
+      "version": "7.0.4"
+    },
+    {
+      "name": "minitest",
+      "version": "5.15.0"
+    }
+  ],
+  "git": {
+    "repository": "https://github.com/land-of-apps/rails-diagram-example.git",
+    "branch": "main",
+    "commit": "5f91577cd1b2221fd1fdb84e355a95780c17c95e",
+    "git_last_annotated_tag": null,
+    "git_last_tag": null,
+    "git_commits_since_last_annotated_tag": null,
+    "git_commits_since_last_tag": null
+  },
+  "name": "Remembering login without remembering",
+  "source_location": "test/integration/users_login_test.rb:90",
+  "recorder": {
+    "name": "minitest",
+    "type": "tests"
+  },
+  "test_status": "succeeded"
+}

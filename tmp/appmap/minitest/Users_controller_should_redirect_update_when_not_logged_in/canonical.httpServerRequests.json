@@ -1,0 +1,7 @@
+[
+  {
+    "route": "PATCH /users/{id}",
+    "parameters": "(user)",
+    "status": 303
+  }
+]

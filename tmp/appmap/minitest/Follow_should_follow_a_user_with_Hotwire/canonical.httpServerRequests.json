@@ -1,0 +1,12 @@
+[
+  {
+    "route": "POST /login",
+    "parameters": "(session)",
+    "status": 302
+  },
+  {
+    "route": "POST /relationships",
+    "parameters": "(followed_id)",
+    "status": 200
+  }
+]

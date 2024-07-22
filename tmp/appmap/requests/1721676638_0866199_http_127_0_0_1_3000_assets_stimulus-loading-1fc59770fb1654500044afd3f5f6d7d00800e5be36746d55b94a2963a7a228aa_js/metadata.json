@@ -1,0 +1,34 @@
+{
+  "app": "rails-diagram-example",
+  "language": {
+    "name": "ruby",
+    "engine": "ruby",
+    "version": "3.1.2"
+  },
+  "client": {
+    "name": "appmap",
+    "url": "https://github.com/applandinc/appmap-ruby",
+    "version": "0.99.4"
+  },
+  "frameworks": [
+    {
+      "name": "rails",
+      "version": "7.0.4"
+    }
+  ],
+  "git": {
+    "repository": "https://github.com/land-of-apps/rails-diagram-example.git",
+    "branch": "main",
+    "commit": "5f91577cd1b2221fd1fdb84e355a95780c17c95e",
+    "git_last_annotated_tag": null,
+    "git_last_tag": null,
+    "git_commits_since_last_annotated_tag": null,
+    "git_commits_since_last_tag": null
+  },
+  "name": "GET /assets/stimulus-loading-1fc59770fb1654500044afd3f5f6d7d00800e5be36746d55b94a2963a7a228aa.js (200) - 15:30:38.086",
+  "timestamp": 1721676638.0866199,
+  "recorder": {
+    "name": "rack",
+    "type": "requests"
+  }
+}

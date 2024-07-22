@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /signup",
+    "parameters": "()",
+    "status": 200
+  }
+]

@@ -1,0 +1,5 @@
+[
+  "sqlite_master",
+  "sqlite_temp_master",
+  "users"
+]

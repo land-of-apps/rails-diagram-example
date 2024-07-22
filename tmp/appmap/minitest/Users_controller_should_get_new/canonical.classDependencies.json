@@ -1,0 +1,50 @@
+[
+  {
+    "caller": "GET /signup",
+    "callee": "actionpack/ActionController"
+  },
+  {
+    "caller": "GET /signup",
+    "callee": "actionview/ActionView"
+  },
+  {
+    "caller": "GET /signup",
+    "callee": "activesupport/ActiveSupport"
+  },
+  {
+    "caller": "GET /signup",
+    "callee": "app/controllers"
+  },
+  {
+    "caller": "GET /signup",
+    "callee": "logger/Logger"
+  },
+  {
+    "caller": "GET /signup",
+    "callee": "ruby/String"
+  },
+  {
+    "caller": "actionpack/ActionController",
+    "callee": "app/views"
+  },
+  {
+    "caller": "app/helpers",
+    "callee": "actionpack/ActionDispatch"
+  },
+  {
+    "caller": "app/views",
+    "callee": "actionpack/ActionDispatch"
+  },
+  {
+    "caller": "app/views",
+    "callee": "actionview/ActionView"
+  },
+  {
+    "caller": "app/views",
+    "callee": "app/helpers"
+  },
+  {
+    "caller": "app/views",
+    "callee": "logger/Logger"
+  }
+]

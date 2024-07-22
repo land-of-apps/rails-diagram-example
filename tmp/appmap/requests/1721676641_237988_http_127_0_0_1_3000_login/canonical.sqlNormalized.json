@@ -1,0 +1,9 @@
+[
+  "PRAGMA table_info(\"users\")",
+  "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"email\" = ? LIMIT ?",
+  "SELECT name FROM sqlite_master WHERE name <> ? AND type IN (?,?)",
+  "SELECT sql FROM\n  (SELECT * FROM sqlite_master UNION ALL\n   SELECT * FROM sqlite_temp_master)\nWHERE type = ? AND name = ?\n",
+  "UPDATE \"users\" SET \"remember_digest\" = ?, \"updated_at\" = ? WHERE \"users\".\"id\" = ?",
+  "begin transaction",
+  "commit transaction"
+]

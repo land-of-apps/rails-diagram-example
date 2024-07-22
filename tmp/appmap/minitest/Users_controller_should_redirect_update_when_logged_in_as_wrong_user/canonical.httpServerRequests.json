@@ -1,0 +1,12 @@
+[
+  {
+    "route": "PATCH /users/{id}",
+    "parameters": "(user)",
+    "status": 303
+  },
+  {
+    "route": "POST /login",
+    "parameters": "(session)",
+    "status": 302
+  }
+]

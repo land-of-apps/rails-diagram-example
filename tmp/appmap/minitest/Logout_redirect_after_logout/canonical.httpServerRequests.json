@@ -1,0 +1,17 @@
+[
+  {
+    "route": "DELETE /logout",
+    "parameters": "()",
+    "status": 303
+  },
+  {
+    "route": "GET /",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "POST /login",
+    "parameters": "(session)",
+    "status": 302
+  }
+]

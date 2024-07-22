@@ -1,0 +1,277 @@
+[
+  {
+    "name": "activesupport",
+    "type": "package",
+    "children": [
+      {
+        "name": "ActiveSupport",
+        "type": "class",
+        "children": [
+          {
+            "name": "Callbacks",
+            "type": "class",
+            "children": [
+              {
+                "name": "CallbackSequence",
+                "type": "class",
+                "children": [
+                  {
+                    "name": "invoke_before",
+                    "type": "function",
+                    "labels": [
+                      "mvc.before_action"
+                    ],
+                    "static": false,
+                    "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:594"
+                  },
+                  {
+                    "name": "invoke_after",
+                    "type": "function",
+                    "labels": [
+                      "mvc.after_action"
+                    ],
+                    "static": false,
+                    "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:598"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "LazyLoadHooks",
+            "type": "class",
+            "children": [
+              {
+                "name": "run_load_hooks",
+                "type": "function",
+                "labels": [
+                  "deserialize.safe",
+                  "lang.eval.safe"
+                ],
+                "static": true,
+                "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:73"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "railties",
+    "type": "package",
+    "children": [
+      {
+        "name": "Rails",
+        "type": "class",
+        "children": [
+          {
+            "name": "Application",
+            "type": "class",
+            "children": [
+              {
+                "name": "Configuration",
+                "type": "class",
+                "children": [
+                  {
+                    "name": "database_configuration",
+                    "type": "function",
+                    "labels": [
+                      "deserialize.safe"
+                    ],
+                    "static": false,
+                    "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/application/configuration.rb:330"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ruby",
+    "type": "package",
+    "children": [
+      {
+        "name": "ERB",
+        "type": "class",
+        "children": [
+          {
+            "name": "result",
+            "type": "function",
+            "static": false,
+            "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/erb.rb:901"
+          }
+        ]
+      },
+      {
+        "name": "Kernel",
+        "type": "class",
+        "children": [
+          {
+            "name": "eval",
+            "type": "function",
+            "labels": [
+              "lang.eval"
+            ],
+            "static": false,
+            "location": "Kernel#eval"
+          }
+        ]
+      },
+      {
+        "name": "String",
+        "type": "class",
+        "children": [
+          {
+            "name": "unpack1",
+            "type": "function",
+            "labels": [
+              "string.unpack"
+            ],
+            "static": false,
+            "location": "<internal:pack>:308"
+          },
+          {
+            "name": "unpack",
+            "type": "function",
+            "labels": [
+              "string.unpack"
+            ],
+            "static": false,
+            "location": "<internal:pack>:275"
+          }
+        ]
+      },
+      {
+        "name": "Array",
+        "type": "class",
+        "children": [
+          {
+            "name": "pack",
+            "type": "function",
+            "labels": [
+              "array.pack"
+            ],
+            "static": false,
+            "location": "<internal:pack>:143"
+          }
+        ]
+      },
+      {
+        "name": "Marshal",
+        "type": "class",
+        "children": [
+          {
+            "name": "load",
+            "type": "function",
+            "labels": [
+              "deserialize.unsafe"
+            ],
+            "static": true,
+            "location": "<internal:marshal>:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "psych",
+    "type": "package",
+    "children": [
+      {
+        "name": "Psych",
+        "type": "class",
+        "children": [
+          {
+            "name": "parse",
+            "type": "function",
+            "labels": [
+              "format.yaml.parse"
+            ],
+            "static": true,
+            "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/psych.rb:398"
+          },
+          {
+            "name": "parse_stream",
+            "type": "function",
+            "labels": [
+              "format.yaml.parse"
+            ],
+            "static": true,
+            "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/psych.rb:452"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sprockets",
+    "type": "package",
+    "children": [
+      {
+        "name": "Sprockets",
+        "type": "class",
+        "children": [
+          {
+            "name": "EncodingUtils",
+            "type": "class",
+            "children": [
+              {
+                "name": "unmarshaled_deflated",
+                "type": "function",
+                "labels": [
+                  "deserialize.safe"
+                ],
+                "static": true,
+                "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/sprockets-4.2.0/lib/sprockets/encoding_utils.rb:39"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /assets"
+      }
+    ]
+  },
+  {
+    "type": "database",
+    "name": "Database",
+    "children": [
+      {
+        "type": "query",
+        "name": "PRAGMA foreign_keys = ON"
+      },
+      {
+        "type": "query",
+        "name": "SELECT sqlite_version(*)"
+      },
+      {
+        "type": "query",
+        "name": "SELECT name FROM sqlite_master WHERE name <> 'sqlite_sequence' AND name = 'schema_migrations' AND type IN ('table','view')"
+      },
+      {
+        "type": "query",
+        "name": "PRAGMA table_info(\"schema_migrations\")"
+      },
+      {
+        "type": "query",
+        "name": "SELECT sql FROM\n  (SELECT * FROM sqlite_master UNION ALL\n   SELECT * FROM sqlite_temp_master)\nWHERE type = 'table' AND name = 'schema_migrations'\n"
+      },
+      {
+        "type": "query",
+        "name": "SELECT \"schema_migrations\".\"version\" FROM \"schema_migrations\" ORDER BY \"schema_migrations\".\"version\" ASC"
+      }
+    ]
+  }
+]

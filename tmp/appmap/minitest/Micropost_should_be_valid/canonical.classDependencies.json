@@ -1,0 +1,10 @@
+[
+  {
+    "caller": "activesupport/ActiveSupport",
+    "callee": "PRAGMA table_info(\"active_storage_attachments\")"
+  },
+  {
+    "caller": "activesupport/ActiveSupport",
+    "callee": "SELECT sql FROM\n  (SELECT * FROM sqlite_master UNION ALL\n   SELECT * FROM sqlite_temp_master)\nWHERE type = 'table' AND name = 'active_storage_attachments'\n"
+  }
+]

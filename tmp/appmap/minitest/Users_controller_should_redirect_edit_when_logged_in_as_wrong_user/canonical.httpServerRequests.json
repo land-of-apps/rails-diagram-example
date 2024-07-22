@@ -1,0 +1,12 @@
+[
+  {
+    "route": "GET /users/{id}/edit",
+    "parameters": "()",
+    "status": 303
+  },
+  {
+    "route": "POST /login",
+    "parameters": "(session)",
+    "status": 302
+  }
+]

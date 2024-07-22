@@ -1,0 +1,38 @@
+[
+  {
+    "caller": "activesupport/ActiveSupport",
+    "callee": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?"
+  },
+  {
+    "caller": "activesupport/ActiveSupport",
+    "callee": "logger/Logger"
+  },
+  {
+    "caller": "app/models/User",
+    "callee": "DELETE FROM \"relationships\" WHERE \"relationships\".\"follower_id\" = ? AND \"relationships\".\"followed_id\" = ?"
+  },
+  {
+    "caller": "app/models/User",
+    "callee": "INSERT INTO \"relationships\" (\"follower_id\", \"followed_id\", \"created_at\", \"updated_at\") VALUES (?, ?, ?, ?)"
+  },
+  {
+    "caller": "app/models/User",
+    "callee": "RELEASE SAVEPOINT active_record_1"
+  },
+  {
+    "caller": "app/models/User",
+    "callee": "SAVEPOINT active_record_1"
+  },
+  {
+    "caller": "app/models/User",
+    "callee": "SELECT 1 AS one FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? AND \"users\".\"id\" = ? LIMIT ?"
+  },
+  {
+    "caller": "app/models/User",
+    "callee": "activesupport/ActiveSupport"
+  },
+  {
+    "caller": "app/models/User",
+    "callee": "logger/Logger"
+  }
+]

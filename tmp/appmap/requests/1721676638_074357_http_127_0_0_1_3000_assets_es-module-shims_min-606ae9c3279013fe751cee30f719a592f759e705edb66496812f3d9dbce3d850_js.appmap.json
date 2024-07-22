@@ -1,0 +1,1697 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "event": "call",
+      "thread_id": 23880,
+      "http_server_request": {
+        "request_method": "GET",
+        "path_info": "/assets/es-module-shims.min-606ae9c3279013fe751cee30f719a592f759e705edb66496812f3d9dbce3d850.js",
+        "normalized_path_info": "/assets",
+        "headers": {
+          "Version": "HTTP/1.1",
+          "Host": "127.0.0.1:3000",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0",
+          "Accept": "*/*",
+          "Accept-Language": "en-US,en;q=0.5",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Referer": "http://127.0.0.1:3000/",
+          "Dnt": "1",
+          "Sec-Gpc": "1",
+          "Connection": "keep-alive",
+          "Cookie": "csrftoken=7r7pE1OdMdnWpH6QZgxTG04dkfrxsXZC; sessionid=vb09147ow9kt0lfkqtf4vtqzdsqjhau3; _sample_app_session=Y3oq6kYv7pcPtQM4ek7SwdnTvDflTsNmUqWgMJqyOF1gbmD630lfMsJGBPiwDy0y3UbN2CtJfusreId0%2BkSHtFQ1N7cysqhRVzLmcKjEdTyfibG17WZN4XwcQ%2Bgj9LprfcAU%2Bo2Q0vy0bgHdbISYNsnnCVvifUP5pXff%2FJzgeGjWAH1bbB%2FJkz758wpl1vGV2uG0J1lZhU9JinJti3kg%2BXyQQi2Mj%2FMt%2BWKAkobHcL4iMbC5vkFKCSMzB01FEUmcJa%2BWAIhLLSz8qXHJSmrr5bvx%2BfmVWGTGkQOM--%2FmUfTDGihVZwM%2B46--hd026mVm8bmwsbLoCLIzGA%3D%3D",
+          "Sec-Fetch-Dest": "script",
+          "Sec-Fetch-Mode": "no-cors",
+          "Sec-Fetch-Site": "same-origin",
+          "Priority": "u=1"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 34080,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 34100,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000113cae978>"
+      }
+    },
+    {
+      "id": 3,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "ActiveSupport::LazyLoadHooks",
+      "method_id": "run_load_hooks",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb",
+      "lineno": 73,
+      "static": true,
+      "parameters": [
+        {
+          "name": "name",
+          "class": "Symbol",
+          "object_id": 4023708,
+          "value": ":active_record",
+          "kind": "req"
+        },
+        {
+          "name": "base",
+          "class": "Class",
+          "object_id": 34140,
+          "value": "ActiveRecord::Base",
+          "kind": "opt"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 34160,
+        "value": "ActiveSupport"
+      }
+    },
+    {
+      "id": 4,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Rails::Application::Configuration",
+      "method_id": "database_configuration",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/application/configuration.rb",
+      "lineno": 330,
+      "static": false,
+      "receiver": {
+        "class": "Rails::Application::Configuration",
+        "object_id": 34180,
+        "value": "#<Rails::Application::Configuration:0x0000000113c8c328>"
+      }
+    },
+    {
+      "id": 5,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "ERB",
+      "method_id": "result",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/erb.rb",
+      "lineno": 901,
+      "static": false,
+      "parameters": [
+        {
+          "name": "b",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "opt"
+        }
+      ],
+      "receiver": {
+        "class": "ERB",
+        "object_id": 34200,
+        "value": "#<ERB:0x0000000113c6cf78>"
+      }
+    },
+    {
+      "id": 6,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Kernel",
+      "method_id": "eval",
+      "path": "Kernel#eval",
+      "static": false,
+      "parameters": [
+        {
+          "name": "string",
+          "class": "String",
+          "object_id": 34220,
+          "value": "#coding:UTF-8\n_erbout = +''; _erbout.<< \"# SQLite. Versions 3.8.0 and up are supported.\\n#   gem ins (...1055 more characters)",
+          "kind": "req"
+        },
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 34240,
+          "value": "[#<Binding:0x0000000113c5fa58>, /Users/petecheslock/repos/rails-diagram-example/config/database.yml, 0]",
+          "kind": "rest",
+          "size": 3
+        }
+      ],
+      "receiver": {
+        "class": "ERB",
+        "object_id": 34200,
+        "value": "#<ERB:0x0000000113c6cf78>"
+      }
+    },
+    {
+      "id": 7,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 6,
+      "elapsed": 0.00011800002539530396,
+      "elapsed_instrumentation": 0.0001319999573752284,
+      "return_value": {
+        "class": "String",
+        "value": "# SQLite. Versions 3.8.0 and up are supported.\n#   gem install sqlite3\n#\n#   Ensure the SQLite 3 gem (...689 more characters)",
+        "object_id": 34260
+      }
+    },
+    {
+      "id": 8,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 5,
+      "elapsed": 0.0002680000034160912,
+      "elapsed_instrumentation": 0.00004799995804205537,
+      "return_value": {
+        "class": "String",
+        "value": "# SQLite. Versions 3.8.0 and up are supported.\n#   gem install sqlite3\n#\n#   Ensure the SQLite 3 gem (...689 more characters)",
+        "object_id": 34260
+      }
+    },
+    {
+      "id": 9,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Psych",
+      "method_id": "parse",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/psych.rb",
+      "lineno": 398,
+      "static": true,
+      "parameters": [
+        {
+          "name": "yaml",
+          "class": "String",
+          "object_id": 34260,
+          "value": "# SQLite. Versions 3.8.0 and up are supported.\n#   gem install sqlite3\n#\n#   Ensure the SQLite 3 gem (...689 more characters)",
+          "kind": "req"
+        },
+        {
+          "name": "filename",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 34280,
+        "value": "Psych"
+      }
+    },
+    {
+      "id": 10,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Psych",
+      "method_id": "parse_stream",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/psych.rb",
+      "lineno": 452,
+      "static": true,
+      "parameters": [
+        {
+          "name": "yaml",
+          "class": "String",
+          "object_id": 34260,
+          "value": "# SQLite. Versions 3.8.0 and up are supported.\n#   gem install sqlite3\n#\n#   Ensure the SQLite 3 gem (...689 more characters)",
+          "kind": "req"
+        },
+        {
+          "name": "filename",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        },
+        {
+          "name": "block",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "block"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 34280,
+        "value": "Psych"
+      }
+    },
+    {
+      "id": 11,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 10,
+      "elapsed": 0.00011299998732283711,
+      "elapsed_instrumentation": 0.000043000036384910345
+    },
+    {
+      "id": 12,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 9,
+      "elapsed": 0.00016300001880154014,
+      "elapsed_instrumentation": 0.00008299993351101875,
+      "return_value": {
+        "class": "Psych::Nodes::Document",
+        "value": "#<Psych::Nodes::Document:0x0000000113cf7560>",
+        "object_id": 34300
+      }
+    },
+    {
+      "id": 13,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 4,
+      "elapsed": 0.0008769999840296805,
+      "elapsed_instrumentation": 0.00013499998021870852,
+      "return_value": {
+        "class": "Hash",
+        "value": "{default=>{adapter=>sqlite3, pool=>5, timeout=>5000}, development=>{adapter=>sqlite3, pool=>5, timeout=>5000, database=>db/development.sqlite3}, test=>{adapter=>sqlite3, pool=>5, timeout=>5000, database=>db/test.sqlite3}, production=>{adapter=>postgresql, encoding=>unicode, pool=>5, database=>sample_app_production, username=>sample_app, password=>}}",
+        "object_id": 34320,
+        "size": 4
+      }
+    },
+    {
+      "id": 14,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "ActiveSupport::LazyLoadHooks",
+      "method_id": "run_load_hooks",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb",
+      "lineno": 73,
+      "static": true,
+      "parameters": [
+        {
+          "name": "name",
+          "class": "Symbol",
+          "object_id": 4040988,
+          "value": ":active_record_sqlite3adapter",
+          "kind": "req"
+        },
+        {
+          "name": "base",
+          "class": "Class",
+          "object_id": 34360,
+          "value": "ActiveRecord::ConnectionAdapters::SQLite3Adapter",
+          "kind": "opt"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 34160,
+        "value": "ActiveSupport"
+      }
+    },
+    {
+      "id": 15,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 14,
+      "elapsed": 0.000017000013031065464,
+      "elapsed_instrumentation": 0.00008600001456215978,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 34380,
+        "size": 0
+      }
+    },
+    {
+      "id": 16,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "String",
+      "method_id": "unpack1",
+      "path": "<internal:pack>",
+      "lineno": 308,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 34400,
+          "value": "H*",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 34420,
+        "value": "_\u000b\u001a_\u001d\u0006_\u0000_j"
+      }
+    },
+    {
+      "id": 17,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 16,
+      "elapsed": 0.0000019999570213258266,
+      "elapsed_instrumentation": 0.0013880000333301723,
+      "return_value": {
+        "class": "String",
+        "value": "c70b1af41d06ab00946a",
+        "object_id": 34440
+      }
+    },
+    {
+      "id": 18,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "ActiveSupport::LazyLoadHooks",
+      "method_id": "run_load_hooks",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb",
+      "lineno": 73,
+      "static": true,
+      "parameters": [
+        {
+          "name": "name",
+          "class": "Symbol",
+          "object_id": 4535068,
+          "value": ":active_job",
+          "kind": "req"
+        },
+        {
+          "name": "base",
+          "class": "Class",
+          "object_id": 35080,
+          "value": "ActiveJob::Base",
+          "kind": "opt"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 34160,
+        "value": "ActiveSupport"
+      }
+    },
+    {
+      "id": 19,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 18,
+      "elapsed": 0.00007100001676008105,
+      "elapsed_instrumentation": 0.00011900003300979733,
+      "return_value": {
+        "class": "Array",
+        "value": "[[#<Proc:0x0000000112c94da8 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, {}], [#<Proc:0x0000000112c94740 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, {}], [#<Proc:0x0000000112c942b8 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, {}]]",
+        "object_id": 35100,
+        "size": 3
+      }
+    },
+    {
+      "id": 20,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 3,
+      "elapsed": 0.040207000041846186,
+      "elapsed_instrumentation": 0.00027300004148855805,
+      "return_value": {
+        "class": "Array",
+        "value": "[[#<Proc:0x0000000107e1c730 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, {}], [#<Proc:0x0000000111a3cd68 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, {}], [#<Proc:0x0000000112a3feb8 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, {}], [#<Proc:0x0000000112a3f9b8 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, {}], [#<Proc:0x0000000112a3f760 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, {}], [#<Proc:0x0000000112a74d70 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, {}], [#<Proc:0x0000000112a74b18 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, {}], [#<Proc:0x0000000112a64038 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, {}], [#<Proc:0x0000000112adc2e0 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, {}], [#<Proc:0x0000000112ad7308 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, {}] (...12 more items)]",
+        "object_id": 35140,
+        "size": 22
+      }
+    },
+    {
+      "id": 21,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 2,
+      "elapsed": 0.08597400004509836,
+      "elapsed_instrumentation": 0.009652999986428767,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000000113cad618 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x0000000113cad7d0 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x0000000113cad910 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x0000000113cadd48 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x0000000113cadf28 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x0000000113cae180 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 35240,
+        "size": 6
+      }
+    },
+    {
+      "id": 22,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 34080,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 34100,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000113cae978>"
+      }
+    },
+    {
+      "id": 23,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 22,
+      "elapsed": 9.999494068324566e-7,
+      "elapsed_instrumentation": 0.00007800007006153464,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 35260,
+        "size": 0
+      }
+    },
+    {
+      "id": 24,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "String",
+      "method_id": "unpack",
+      "path": "<internal:pack>",
+      "lineno": 275,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 35280,
+          "value": "NnnnnN",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 35300,
+        "value": "*\f\u0005___6VQ__Mm T_"
+      }
+    },
+    {
+      "id": 25,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 24,
+      "elapsed": 0.00000200001522898674,
+      "elapsed_instrumentation": 0.00007599999662488699,
+      "return_value": {
+        "class": "Array",
+        "value": "[705430966, 46516, 13910, 20881, 64333, 1830835363]",
+        "object_id": 35320,
+        "size": 6
+      }
+    },
+    {
+      "id": 26,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 35380,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 35400,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000115b47da8>"
+      }
+    },
+    {
+      "id": 27,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 26,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00007399998139590025,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 35420,
+        "size": 0
+      }
+    },
+    {
+      "id": 28,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 35380,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 35400,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000115b47da8>"
+      }
+    },
+    {
+      "id": 29,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 28,
+      "elapsed": 0.000010000017937272787,
+      "elapsed_instrumentation": 0.00002700003096833825,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000000115b479e8 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 35440,
+        "size": 1
+      }
+    },
+    {
+      "id": 30,
+      "event": "call",
+      "thread_id": 23880,
+      "sql_query": {
+        "sql": "PRAGMA foreign_keys = ON",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 31,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 30,
+      "elapsed": 0.000527,
+      "elapsed_instrumentation": 0.0010710000060498714
+    },
+    {
+      "id": 32,
+      "event": "call",
+      "thread_id": 23880,
+      "sql_query": {
+        "sql": "SELECT sqlite_version(*)",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 33,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 32,
+      "elapsed": 0.000034,
+      "elapsed_instrumentation": 0.000034999975468963385
+    },
+    {
+      "id": 34,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 35480,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 35400,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000115b47da8>"
+      }
+    },
+    {
+      "id": 35,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 34,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00002099998528137803,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 35420,
+        "size": 0
+      }
+    },
+    {
+      "id": 36,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 35480,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 35400,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x0000000115b47da8>"
+      }
+    },
+    {
+      "id": 37,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 36,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00002400000812485814,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x0000000115b479e8 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 35440,
+        "size": 1
+      }
+    },
+    {
+      "id": 38,
+      "event": "call",
+      "thread_id": 23880,
+      "sql_query": {
+        "sql": "SELECT name FROM sqlite_master WHERE name <> 'sqlite_sequence' AND name = 'schema_migrations' AND type IN ('table','view')",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 39,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 38,
+      "elapsed": 0.0001,
+      "elapsed_instrumentation": 0.00002700003096833825
+    },
+    {
+      "id": 40,
+      "event": "call",
+      "thread_id": 23880,
+      "sql_query": {
+        "sql": "PRAGMA table_info(\"schema_migrations\")",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 41,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 40,
+      "elapsed": 0.0001,
+      "elapsed_instrumentation": 0.000029999995604157448
+    },
+    {
+      "id": 42,
+      "event": "call",
+      "thread_id": 23880,
+      "sql_query": {
+        "sql": "SELECT sql FROM\n  (SELECT * FROM sqlite_master UNION ALL\n   SELECT * FROM sqlite_temp_master)\nWHERE type = 'table' AND name = 'schema_migrations'\n",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 43,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 42,
+      "elapsed": 0.00009,
+      "elapsed_instrumentation": 0.000011000025551766157
+    },
+    {
+      "id": 44,
+      "event": "call",
+      "thread_id": 23880,
+      "sql_query": {
+        "sql": "SELECT \"schema_migrations\".\"version\" FROM \"schema_migrations\" ORDER BY \"schema_migrations\".\"version\" ASC",
+        "database_type": "sqlite"
+      }
+    },
+    {
+      "id": 45,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 44,
+      "elapsed": 0.00007,
+      "elapsed_instrumentation": 0.00001699995482340455
+    },
+    {
+      "id": 46,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 35740,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 35760,
+        "value": "[___U_Q_[__c__~_4_!_\u001d_\u001b_\u001d6G___\u0010\rQ]"
+      }
+    },
+    {
+      "id": 47,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 46,
+      "elapsed": 0.0000029999646358191967,
+      "elapsed_instrumentation": 0.00010900001507252455,
+      "return_value": {
+        "class": "String",
+        "value": "jPnjValR/FuBi2Odn368NIchuR3sG70dNkfm7pIQDVE=",
+        "object_id": 35780
+      }
+    },
+    {
+      "id": 48,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Sprockets::EncodingUtils",
+      "method_id": "unmarshaled_deflated",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/sprockets-4.2.0/lib/sprockets/encoding_utils.rb",
+      "lineno": 39,
+      "static": true,
+      "parameters": [
+        {
+          "name": "str",
+          "class": "String",
+          "object_id": 35800,
+          "value": "\u0004\b\"%_I$6;f________\u0017Q6__\\__x_>1b___\u0003_",
+          "kind": "req"
+        },
+        {
+          "name": "window_bits",
+          "class": "Integer",
+          "object_id": 31,
+          "value": "15",
+          "kind": "opt"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 5680,
+        "value": "Sprockets::EncodingUtils"
+      }
+    },
+    {
+      "id": 49,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Marshal",
+      "method_id": "load",
+      "path": "<internal:marshal>",
+      "lineno": 33,
+      "static": true,
+      "parameters": [
+        {
+          "name": "source",
+          "class": "String",
+          "object_id": 35800,
+          "value": "\u0004\b\"%_I$6;f________\u0017Q6__\\__x_>1b___\u0003_",
+          "kind": "req"
+        },
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 35820,
+          "value": "[]",
+          "kind": "rest",
+          "size": 0
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 35840,
+        "value": "Marshal"
+      }
+    },
+    {
+      "id": 50,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 49,
+      "elapsed": 0.000005999987479299307,
+      "elapsed_instrumentation": 0.00007500004721805453,
+      "return_value": {
+        "class": "String",
+        "value": "_I$6;f________\u0017Q6__\\__x_>1b___\u0003_",
+        "object_id": 35860
+      }
+    },
+    {
+      "id": 51,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 48,
+      "elapsed": 0.00009399995906278491,
+      "elapsed_instrumentation": 0.00006400007987394929,
+      "return_value": {
+        "class": "String",
+        "value": "_I$6;f________\u0017Q6__\\__x_>1b___\u0003_",
+        "object_id": 35860
+      }
+    },
+    {
+      "id": 52,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 35740,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 35880,
+        "value": "[___A_^__\u0018_a__S=_^_K_\u0004_#__Egq__Z\u001b]"
+      }
+    },
+    {
+      "id": 53,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 52,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.000028999987989664078,
+      "return_value": {
+        "class": "String",
+        "value": "1+XaQe1egcQY8GG0l1M9u16yS7AErSPD90VncZyzWhs=",
+        "object_id": 35900
+      }
+    },
+    {
+      "id": 54,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Sprockets::EncodingUtils",
+      "method_id": "unmarshaled_deflated",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/sprockets-4.2.0/lib/sprockets/encoding_utils.rb",
+      "lineno": 39,
+      "static": true,
+      "parameters": [
+        {
+          "name": "str",
+          "class": "String",
+          "object_id": 35920,
+          "value": "\u0004\b[\u0007o:\bSet\u0006:\n@hash}\u000bI\"\u0018environment-version\u0006:\u0006ETTI\"\u0016environment-paths\u0006;\u0007TTI\"\u000erails-env\u0006;\u0007TTI\"Lprocess (...351 more characters)",
+          "kind": "req"
+        },
+        {
+          "name": "window_bits",
+          "class": "Integer",
+          "object_id": 31,
+          "value": "15",
+          "kind": "opt"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 5680,
+        "value": "Sprockets::EncodingUtils"
+      }
+    },
+    {
+      "id": 55,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Marshal",
+      "method_id": "load",
+      "path": "<internal:marshal>",
+      "lineno": 33,
+      "static": true,
+      "parameters": [
+        {
+          "name": "source",
+          "class": "String",
+          "object_id": 35920,
+          "value": "\u0004\b[\u0007o:\bSet\u0006:\n@hash}\u000bI\"\u0018environment-version\u0006:\u0006ETTI\"\u0016environment-paths\u0006;\u0007TTI\"\u000erails-env\u0006;\u0007TTI\"Lprocess (...351 more characters)",
+          "kind": "req"
+        },
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 35940,
+          "value": "[]",
+          "kind": "rest",
+          "size": 0
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 35840,
+        "value": "Marshal"
+      }
+    },
+    {
+      "id": 56,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 55,
+      "elapsed": 0.00002300000051036477,
+      "elapsed_instrumentation": 0.00005500001134350896,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Set: {\"environment-version\", \"environment-paths\", \"rails-env\", \"processors:type=application/javasc, #<Set: {\"environment-version\", \"environment-paths\", \"rails-env\", \"processors:type=application/javasc]",
+        "object_id": 36000,
+        "size": 2
+      }
+    },
+    {
+      "id": 57,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 54,
+      "elapsed": 0.00008099997648969293,
+      "elapsed_instrumentation": 0.000036999990697950125,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Set: {\"environment-version\", \"environment-paths\", \"rails-env\", \"processors:type=application/javasc, #<Set: {\"environment-version\", \"environment-paths\", \"rails-env\", \"processors:type=application/javasc]",
+        "object_id": 36000,
+        "size": 2
+      }
+    },
+    {
+      "id": 58,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 35740,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 36040,
+        "value": "[___U_Q_[__c__~_4_!_\u001d_\u001b_\u001d6G___\u0010\rQ]"
+      }
+    },
+    {
+      "id": 59,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 58,
+      "elapsed": 0.000012999982573091984,
+      "elapsed_instrumentation": 0.00002600002335384488,
+      "return_value": {
+        "class": "String",
+        "value": "jPnjValR/FuBi2Odn368NIchuR3sG70dNkfm7pIQDVE=",
+        "object_id": 36060
+      }
+    },
+    {
+      "id": 60,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 35740,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 36160,
+        "value": "[_0__\u00108g0_-_DE\u0004_yL_|0_b%__lrDt__l]"
+      }
+    },
+    {
+      "id": 61,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 60,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000024999957531690598,
+      "return_value": {
+        "class": "String",
+        "value": "gzDAsRA4ZzCqLdtERQTAeUzmfDDlYiWkxWxyRHTJw2w=",
+        "object_id": 36180
+      }
+    },
+    {
+      "id": 62,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Sprockets::EncodingUtils",
+      "method_id": "unmarshaled_deflated",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/sprockets-4.2.0/lib/sprockets/encoding_utils.rb",
+      "lineno": 39,
+      "static": true,
+      "parameters": [
+        {
+          "name": "str",
+          "class": "String",
+          "object_id": 36200,
+          "value": "\u0004\bI\"\u0001_/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/importmap-rails-1.1.0/a (...145 more characters)",
+          "kind": "req"
+        },
+        {
+          "name": "window_bits",
+          "class": "Integer",
+          "object_id": 31,
+          "value": "15",
+          "kind": "opt"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 5680,
+        "value": "Sprockets::EncodingUtils"
+      }
+    },
+    {
+      "id": 63,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Marshal",
+      "method_id": "load",
+      "path": "<internal:marshal>",
+      "lineno": 33,
+      "static": true,
+      "parameters": [
+        {
+          "name": "source",
+          "class": "String",
+          "object_id": 36200,
+          "value": "\u0004\bI\"\u0001_/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/importmap-rails-1.1.0/a (...145 more characters)",
+          "kind": "req"
+        },
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 36220,
+          "value": "[]",
+          "kind": "rest",
+          "size": 0
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 35840,
+        "value": "Marshal"
+      }
+    },
+    {
+      "id": 64,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 63,
+      "elapsed": 0.0000019999570213258266,
+      "elapsed_instrumentation": 0.000022000051103532314,
+      "return_value": {
+        "class": "String",
+        "value": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/importmap-rails-1.1.0/app/ass (...134 more characters)",
+        "object_id": 36240
+      }
+    },
+    {
+      "id": 65,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 62,
+      "elapsed": 0.00002800003858283162,
+      "elapsed_instrumentation": 0.000021999934688210487,
+      "return_value": {
+        "class": "String",
+        "value": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/importmap-rails-1.1.0/app/ass (...134 more characters)",
+        "object_id": 36240
+      }
+    },
+    {
+      "id": 66,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 35740,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 36260,
+        "value": "[_n)^d__X\u001d,__2h\u0007_I_p___$SXJ___C__]"
+      }
+    },
+    {
+      "id": 67,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 66,
+      "elapsed": 9.999494068324566e-7,
+      "elapsed_instrumentation": 0.000022000051103532314,
+      "return_value": {
+        "class": "String",
+        "value": "224pXmSdrFgdLOfMMmgHlEnKcJfNrCRTWErQoNND9OQ=",
+        "object_id": 36280
+      }
+    },
+    {
+      "id": 68,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Sprockets::EncodingUtils",
+      "method_id": "unmarshaled_deflated",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/sprockets-4.2.0/lib/sprockets/encoding_utils.rb",
+      "lineno": 39,
+      "static": true,
+      "parameters": [
+        {
+          "name": "str",
+          "class": "String",
+          "object_id": 36300,
+          "value": "x__}K__H_______=_\u001d\u00180_k\u0003VrjUd_R___,____z:{_7__=___]IQ_LV)_\u001c\u0006_U_J_\u0006|_O>y\u0017{1_____\u00180|__\u0017\u001f____/__\u0017\u001b__G_~/ (...11610 more characters)",
+          "kind": "req"
+        },
+        {
+          "name": "window_bits",
+          "class": "Integer",
+          "object_id": 31,
+          "value": "15",
+          "kind": "opt"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 5680,
+        "value": "Sprockets::EncodingUtils"
+      }
+    },
+    {
+      "id": 69,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Marshal",
+      "method_id": "load",
+      "path": "<internal:marshal>",
+      "lineno": 33,
+      "static": true,
+      "parameters": [
+        {
+          "name": "source",
+          "class": "String",
+          "object_id": 36320,
+          "value": "\u0004\b{\u000f:\buriI\"\u0001_file:///Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/importmap (...33480 more characters)",
+          "kind": "req"
+        },
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 36340,
+          "value": "[]",
+          "kind": "rest",
+          "size": 0
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 35840,
+        "value": "Marshal"
+      }
+    },
+    {
+      "id": 70,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 69,
+      "elapsed": 0.0000350000336766243,
+      "elapsed_instrumentation": 0.00020299997413530946,
+      "return_value": {
+        "class": "Hash",
+        "value": "{:uri=>file:///Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/importmap-rails-1.1.0/ (...141 more characters), :load_path=>/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/importmap-rails-1.1.0/app/ass (...15 more characters), :filename=>/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/importmap-rails-1.1.0/app/ass (...38 more characters), :name=>es-module-shims.min, :logical_path=>es-module-shims.min.js, :content_type=>application/javascript, :source=>(function(){const noop=()=>{};const e=document.querySelector(\"script[type=esms-options]\");const t=e? (...31510 more characters), :metadata=>{:dependencies=>#<Set: {\"environment-version\", \"environment-paths\", \"rails-env\", \"processors:type=application/javasc, :sources=>[], :map=>{version=>3, file=>es-module-shims.min.js, sections=>[{offset=>{line=>0, column=>0}, map=>{version=>3, file=>es-module-shims.min.js, mappings=>AAAA;AACA;AACA, sources=>[es-module-shims.min.source.js], names=>[], x_sprockets_linecount=>3}}]}, :links=>#<Set: {}>, :included=>[file:///Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/importmap-rails-1.1.0/ (...155 more characters)], :charset=>utf-8, :digest=>__\u001f\u001an]__l\t5\u001c_1__+_____Q$_R_mNf\r, :length=>31610, :environment_version=>1.0}, :dependencies_digest=>__\u0018___\u0005Z}\u000f____l_______\u0005____z____, :id=>499e971e602bf2565a5a9736e9303a86195437b0610307ce9155e508904c2a97}",
+        "object_id": 36400,
+        "size": 10
+      }
+    },
+    {
+      "id": 71,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 68,
+      "elapsed": 0.0003470000228844583,
+      "elapsed_instrumentation": 0.00021899992134422064,
+      "return_value": {
+        "class": "Hash",
+        "value": "{:uri=>file:///Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/importmap-rails-1.1.0/ (...141 more characters), :load_path=>/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/importmap-rails-1.1.0/app/ass (...15 more characters), :filename=>/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/importmap-rails-1.1.0/app/ass (...38 more characters), :name=>es-module-shims.min, :logical_path=>es-module-shims.min.js, :content_type=>application/javascript, :source=>(function(){const noop=()=>{};const e=document.querySelector(\"script[type=esms-options]\");const t=e? (...31510 more characters), :metadata=>{:dependencies=>#<Set: {\"environment-version\", \"environment-paths\", \"rails-env\", \"processors:type=application/javasc, :sources=>[], :map=>{version=>3, file=>es-module-shims.min.js, sections=>[{offset=>{line=>0, column=>0}, map=>{version=>3, file=>es-module-shims.min.js, mappings=>AAAA;AACA;AACA, sources=>[es-module-shims.min.source.js], names=>[], x_sprockets_linecount=>3}}]}, :links=>#<Set: {}>, :included=>[file:///Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/importmap-rails-1.1.0/ (...155 more characters)], :charset=>utf-8, :digest=>__\u001f\u001an]__l\t5\u001c_1__+_____Q$_R_mNf\r, :length=>31610, :environment_version=>1.0}, :dependencies_digest=>__\u0018___\u0005Z}\u000f____l_______\u0005____z____, :id=>499e971e602bf2565a5a9736e9303a86195437b0610307ce9155e508904c2a97}",
+        "object_id": 36400,
+        "size": 10
+      }
+    },
+    {
+      "id": 72,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 1,
+      "elapsed": 0.11480999999912456,
+      "elapsed_instrumentation": 0.010120999999344349,
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "content-length": "31610",
+          "content-type": "application/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "\"606ae9c3279013fe751cee30f719a592f759e705edb66496812f3d9dbce3d850\"",
+          "X-Request-Id": "2a0c05b6-b5b4-4656-9191-fb4d6d2054a3",
+          "X-Runtime": "0.018710",
+          "Server-Timing": "sql.active_record;dur=2.77"
+        }
+      }
+    }
+  ],
+  "version": "1.12.0",
+  "metadata": {
+    "app": "rails-diagram-example",
+    "language": {
+      "name": "ruby",
+      "engine": "ruby",
+      "version": "3.1.2"
+    },
+    "client": {
+      "name": "appmap",
+      "url": "https://github.com/applandinc/appmap-ruby",
+      "version": "0.99.4"
+    },
+    "frameworks": [
+      {
+        "name": "rails",
+        "version": "7.0.4"
+      }
+    ],
+    "git": {
+      "repository": "https://github.com/land-of-apps/rails-diagram-example.git",
+      "branch": "main",
+      "commit": "5f91577cd1b2221fd1fdb84e355a95780c17c95e",
+      "git_last_annotated_tag": null,
+      "git_last_tag": null,
+      "git_commits_since_last_annotated_tag": null,
+      "git_commits_since_last_tag": null
+    },
+    "name": "GET /assets/es-module-shims.min-606ae9c3279013fe751cee30f719a592f759e705edb66496812f3d9dbce3d850.js (200) - 15:30:38.074",
+    "timestamp": 1721676638.074357,
+    "recorder": {
+      "name": "rack",
+      "type": "requests"
+    }
+  },
+  "classMap": [
+    {
+      "name": "activesupport",
+      "type": "package",
+      "children": [
+        {
+          "name": "ActiveSupport",
+          "type": "class",
+          "children": [
+            {
+              "name": "Callbacks",
+              "type": "class",
+              "children": [
+                {
+                  "name": "CallbackSequence",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "invoke_before",
+                      "type": "function",
+                      "labels": [
+                        "mvc.before_action"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:594"
+                    },
+                    {
+                      "name": "invoke_after",
+                      "type": "function",
+                      "labels": [
+                        "mvc.after_action"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:598"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "LazyLoadHooks",
+              "type": "class",
+              "children": [
+                {
+                  "name": "run_load_hooks",
+                  "type": "function",
+                  "labels": [
+                    "deserialize.safe",
+                    "lang.eval.safe"
+                  ],
+                  "static": true,
+                  "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/lazy_load_hooks.rb:73"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "railties",
+      "type": "package",
+      "children": [
+        {
+          "name": "Rails",
+          "type": "class",
+          "children": [
+            {
+              "name": "Application",
+              "type": "class",
+              "children": [
+                {
+                  "name": "Configuration",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "database_configuration",
+                      "type": "function",
+                      "labels": [
+                        "deserialize.safe"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/application/configuration.rb:330"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ruby",
+      "type": "package",
+      "children": [
+        {
+          "name": "ERB",
+          "type": "class",
+          "children": [
+            {
+              "name": "result",
+              "type": "function",
+              "static": false,
+              "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/erb.rb:901"
+            }
+          ]
+        },
+        {
+          "name": "Kernel",
+          "type": "class",
+          "children": [
+            {
+              "name": "eval",
+              "type": "function",
+              "labels": [
+                "lang.eval"
+              ],
+              "static": false,
+              "location": "Kernel#eval"
+            }
+          ]
+        },
+        {
+          "name": "String",
+          "type": "class",
+          "children": [
+            {
+              "name": "unpack1",
+              "type": "function",
+              "labels": [
+                "string.unpack"
+              ],
+              "static": false,
+              "location": "<internal:pack>:308"
+            },
+            {
+              "name": "unpack",
+              "type": "function",
+              "labels": [
+                "string.unpack"
+              ],
+              "static": false,
+              "location": "<internal:pack>:275"
+            }
+          ]
+        },
+        {
+          "name": "Array",
+          "type": "class",
+          "children": [
+            {
+              "name": "pack",
+              "type": "function",
+              "labels": [
+                "array.pack"
+              ],
+              "static": false,
+              "location": "<internal:pack>:143"
+            }
+          ]
+        },
+        {
+          "name": "Marshal",
+          "type": "class",
+          "children": [
+            {
+              "name": "load",
+              "type": "function",
+              "labels": [
+                "deserialize.unsafe"
+              ],
+              "static": true,
+              "location": "<internal:marshal>:33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psych",
+      "type": "package",
+      "children": [
+        {
+          "name": "Psych",
+          "type": "class",
+          "children": [
+            {
+              "name": "parse",
+              "type": "function",
+              "labels": [
+                "format.yaml.parse"
+              ],
+              "static": true,
+              "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/psych.rb:398"
+            },
+            {
+              "name": "parse_stream",
+              "type": "function",
+              "labels": [
+                "format.yaml.parse"
+              ],
+              "static": true,
+              "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0/psych.rb:452"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sprockets",
+      "type": "package",
+      "children": [
+        {
+          "name": "Sprockets",
+          "type": "class",
+          "children": [
+            {
+              "name": "EncodingUtils",
+              "type": "class",
+              "children": [
+                {
+                  "name": "unmarshaled_deflated",
+                  "type": "function",
+                  "labels": [
+                    "deserialize.safe"
+                  ],
+                  "static": true,
+                  "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/sprockets-4.2.0/lib/sprockets/encoding_utils.rb:39"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /assets"
+        }
+      ]
+    },
+    {
+      "type": "database",
+      "name": "Database",
+      "children": [
+        {
+          "type": "query",
+          "name": "PRAGMA foreign_keys = ON"
+        },
+        {
+          "type": "query",
+          "name": "SELECT sqlite_version(*)"
+        },
+        {
+          "type": "query",
+          "name": "SELECT name FROM sqlite_master WHERE name <> 'sqlite_sequence' AND name = 'schema_migrations' AND type IN ('table','view')"
+        },
+        {
+          "type": "query",
+          "name": "PRAGMA table_info(\"schema_migrations\")"
+        },
+        {
+          "type": "query",
+          "name": "SELECT sql FROM\n  (SELECT * FROM sqlite_master UNION ALL\n   SELECT * FROM sqlite_temp_master)\nWHERE type = 'table' AND name = 'schema_migrations'\n"
+        },
+        {
+          "type": "query",
+          "name": "SELECT \"schema_migrations\".\"version\" FROM \"schema_migrations\" ORDER BY \"schema_migrations\".\"version\" ASC"
+        }
+      ]
+    }
+  ]
+}

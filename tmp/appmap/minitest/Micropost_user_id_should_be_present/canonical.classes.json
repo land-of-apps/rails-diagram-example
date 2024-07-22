@@ -1,0 +1,5 @@
+[
+  "activesupport/ActiveSupport::Callbacks::CallbackSequence",
+  "activesupport/ActiveSupport::LazyLoadHooks",
+  "logger/Logger::LogDevice"
+]

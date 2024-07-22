@@ -1,0 +1,74 @@
+[
+  {
+    "caller": "GET /help",
+    "callee": "actionpack/ActionController"
+  },
+  {
+    "caller": "GET /help",
+    "callee": "actionview/ActionView"
+  },
+  {
+    "caller": "GET /help",
+    "callee": "activesupport/ActiveSupport"
+  },
+  {
+    "caller": "GET /help",
+    "callee": "app/controllers"
+  },
+  {
+    "caller": "GET /help",
+    "callee": "logger/Logger"
+  },
+  {
+    "caller": "GET /help",
+    "callee": "ruby/String"
+  },
+  {
+    "caller": "actionpack/ActionController",
+    "callee": "app/views"
+  },
+  {
+    "caller": "app/helpers",
+    "callee": "actionpack/ActionDispatch"
+  },
+  {
+    "caller": "app/views",
+    "callee": "actionpack/ActionDispatch"
+  },
+  {
+    "caller": "app/views",
+    "callee": "actionview/ActionView"
+  },
+  {
+    "caller": "app/views",
+    "callee": "app/helpers"
+  },
+  {
+    "caller": "app/views",
+    "callee": "json/JSON"
+  },
+  {
+    "caller": "app/views",
+    "callee": "logger/Logger"
+  },
+  {
+    "caller": "app/views",
+    "callee": "ruby/Array"
+  },
+  {
+    "caller": "app/views",
+    "callee": "ruby/Marshal"
+  },
+  {
+    "caller": "app/views",
+    "callee": "ruby/String"
+  },
+  {
+    "caller": "app/views",
+    "callee": "sprockets/Sprockets"
+  },
+  {
+    "caller": "sprockets/Sprockets",
+    "callee": "ruby/Marshal"
+  }
+]

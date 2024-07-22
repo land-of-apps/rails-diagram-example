@@ -1,0 +1,14 @@
+[
+  {
+    "class": "TypeError",
+    "message": "can't dump IO",
+    "stack": [
+      "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/appmap-0.99.4/lib/appmap/hook/method/ruby3.rb:40",
+      "Marshal.dump",
+      "app/views/users/show_follow.html.erb",
+      "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4/lib/action_controller/metal/renderers.rb:140",
+      "app/controllers/users_controller.rb:51"
+    ],
+    "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/appmap-0.99.4/lib/appmap/hook/method/ruby3.rb:40"
+  }
+]

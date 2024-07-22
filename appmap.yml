@@ -1,0 +1,8 @@
+---
+name: rails-diagram-example
+language: ruby
+appmap_dir: tmp/appmap
+packages:
+- path: app
+- path: lib
+exclude: []

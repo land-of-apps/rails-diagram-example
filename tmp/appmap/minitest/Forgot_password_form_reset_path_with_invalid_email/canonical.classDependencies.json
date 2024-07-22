@@ -1,0 +1,102 @@
+[
+  {
+    "caller": "POST /password_resets",
+    "callee": "actionpack/ActionDispatch"
+  },
+  {
+    "caller": "POST /password_resets",
+    "callee": "activesupport/ActiveSupport"
+  },
+  {
+    "caller": "POST /password_resets",
+    "callee": "app/controllers"
+  },
+  {
+    "caller": "POST /password_resets",
+    "callee": "json/JSON"
+  },
+  {
+    "caller": "POST /password_resets",
+    "callee": "logger/Logger"
+  },
+  {
+    "caller": "POST /password_resets",
+    "callee": "ruby/String"
+  },
+  {
+    "caller": "actionpack/ActionController",
+    "callee": "app/views"
+  },
+  {
+    "caller": "actionpack/ActionDispatch",
+    "callee": "ruby/String"
+  },
+  {
+    "caller": "activesupport/ActiveSupport",
+    "callee": "json/JSON"
+  },
+  {
+    "caller": "activesupport/ActiveSupport",
+    "callee": "openssl/OpenSSL"
+  },
+  {
+    "caller": "activesupport/ActiveSupport",
+    "callee": "ruby/Array"
+  },
+  {
+    "caller": "app/controllers",
+    "callee": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"email\" = ? LIMIT ?"
+  },
+  {
+    "caller": "app/controllers",
+    "callee": "actionpack/ActionController"
+  },
+  {
+    "caller": "app/controllers",
+    "callee": "actionpack/ActionDispatch"
+  },
+  {
+    "caller": "app/controllers",
+    "callee": "logger/Logger"
+  },
+  {
+    "caller": "app/helpers",
+    "callee": "actionpack/ActionDispatch"
+  },
+  {
+    "caller": "app/views",
+    "callee": "actionview/ActionView"
+  },
+  {
+    "caller": "app/views",
+    "callee": "app/helpers"
+  },
+  {
+    "caller": "app/views",
+    "callee": "json/JSON"
+  },
+  {
+    "caller": "app/views",
+    "callee": "logger/Logger"
+  },
+  {
+    "caller": "app/views",
+    "callee": "ruby/Array"
+  },
+  {
+    "caller": "app/views",
+    "callee": "ruby/Marshal"
+  },
+  {
+    "caller": "app/views",
+    "callee": "ruby/String"
+  },
+  {
+    "caller": "app/views",
+    "callee": "sprockets/Sprockets"
+  },
+  {
+    "caller": "sprockets/Sprockets",
+    "callee": "ruby/Marshal"
+  }
+]

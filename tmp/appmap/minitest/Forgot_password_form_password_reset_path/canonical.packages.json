@@ -1,0 +1,12 @@
+[
+  "actionpack",
+  "actionview",
+  "activesupport",
+  "app/controllers",
+  "app/helpers",
+  "app/views",
+  "json",
+  "logger",
+  "ruby",
+  "sprockets"
+]

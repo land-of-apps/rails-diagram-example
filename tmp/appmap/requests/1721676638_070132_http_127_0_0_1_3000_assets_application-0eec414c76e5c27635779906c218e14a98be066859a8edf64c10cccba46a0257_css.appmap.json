@@ -1,0 +1,4214 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "event": "call",
+      "thread_id": 23880,
+      "http_server_request": {
+        "request_method": "GET",
+        "path_info": "/assets/application-0eec414c76e5c27635779906c218e14a98be066859a8edf64c10cccba46a0257.css",
+        "normalized_path_info": "/assets",
+        "headers": {
+          "Version": "HTTP/1.1",
+          "Host": "127.0.0.1:3000",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0",
+          "Accept": "text/css,*/*;q=0.1",
+          "Accept-Language": "en-US,en;q=0.5",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Referer": "http://127.0.0.1:3000/",
+          "Dnt": "1",
+          "Sec-Gpc": "1",
+          "Connection": "keep-alive",
+          "Cookie": "csrftoken=7r7pE1OdMdnWpH6QZgxTG04dkfrxsXZC; sessionid=vb09147ow9kt0lfkqtf4vtqzdsqjhau3; _sample_app_session=Y3oq6kYv7pcPtQM4ek7SwdnTvDflTsNmUqWgMJqyOF1gbmD630lfMsJGBPiwDy0y3UbN2CtJfusreId0%2BkSHtFQ1N7cysqhRVzLmcKjEdTyfibG17WZN4XwcQ%2Bgj9LprfcAU%2Bo2Q0vy0bgHdbISYNsnnCVvifUP5pXff%2FJzgeGjWAH1bbB%2FJkz758wpl1vGV2uG0J1lZhU9JinJti3kg%2BXyQQi2Mj%2FMt%2BWKAkobHcL4iMbC5vkFKCSMzB01FEUmcJa%2BWAIhLLSz8qXHJSmrr5bvx%2BfmVWGTGkQOM--%2FmUfTDGihVZwM%2B46--hd026mVm8bmwsbLoCLIzGA%3D%3D",
+          "Sec-Fetch-Dest": "style",
+          "Sec-Fetch-Mode": "no-cors",
+          "Sec-Fetch-Site": "same-origin",
+          "Priority": "u=0"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_before",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 594,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 96600,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 35560,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x000000011458cfb8>"
+      }
+    },
+    {
+      "id": 3,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 2,
+      "elapsed": 0.000952000031247735,
+      "elapsed_instrumentation": 0.000109999964479357,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Proc:0x000000011458c108 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x000000011458c2c0 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x000000011458c400 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x000000011458c608 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x000000011458c7c0 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act, #<Proc:0x000000011458c978 /Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/act]",
+        "object_id": 36740,
+        "size": 6
+      }
+    },
+    {
+      "id": 4,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "ActiveSupport::Callbacks::CallbackSequence",
+      "method_id": "invoke_after",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb",
+      "lineno": 598,
+      "static": false,
+      "parameters": [
+        {
+          "name": "arg",
+          "class": "ActiveSupport::Callbacks::Filters::Environment",
+          "object_id": 96600,
+          "value": null,
+          "kind": "req"
+        }
+      ],
+      "receiver": {
+        "class": "ActiveSupport::Callbacks::CallbackSequence",
+        "object_id": 35560,
+        "value": "#<ActiveSupport::Callbacks::CallbackSequence:0x000000011458cfb8>"
+      }
+    },
+    {
+      "id": 5,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 4,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00021999998716637492,
+      "return_value": {
+        "class": "Array",
+        "value": "[]",
+        "object_id": 36760,
+        "size": 0
+      }
+    },
+    {
+      "id": 6,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "String",
+      "method_id": "unpack",
+      "path": "<internal:pack>",
+      "lineno": 275,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 36780,
+          "value": "NnnnnN",
+          "kind": "req"
+        },
+        {
+          "name": "offset",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "String",
+        "object_id": 96620,
+        "value": "}TM__-^:\u0001R_p[/_T"
+      }
+    },
+    {
+      "id": 7,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 6,
+      "elapsed": 0.00000300002284348011,
+      "elapsed_instrumentation": 0.00004099996294826269,
+      "return_value": {
+        "class": "Array",
+        "value": "[2102676896, 47405, 24122, 338, 33904, 1529855828]",
+        "object_id": 96640,
+        "size": 6
+      }
+    },
+    {
+      "id": 8,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 96660,
+        "value": "[d?_U\u001c_\u000e_@mU___]____\r\u000fzy__d_\u001f__<_]"
+      }
+    },
+    {
+      "id": 9,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 8,
+      "elapsed": 0.0000019999570213258266,
+      "elapsed_instrumentation": 0.00006699998630210757,
+      "return_value": {
+        "class": "String",
+        "value": "ZD/MVRyuDrhAbVW2ztdduKu91Q0PennFz2SfH4H3PO4=",
+        "object_id": 96680
+      }
+    },
+    {
+      "id": 10,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 96700,
+        "value": "[______d__C_b__\u0011N\u0010\u0002`\u001b\u0004______hoz__]"
+      }
+    },
+    {
+      "id": 11,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 10,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00002300000051036477,
+      "return_value": {
+        "class": "String",
+        "value": "2Kqqs5CDZKeqQ8Zi3OcRThACYBsE09CB/YbQaG96080=",
+        "object_id": 96720
+      }
+    },
+    {
+      "id": 12,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Sprockets::EncodingUtils",
+      "method_id": "unmarshaled_deflated",
+      "path": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/sprockets-4.2.0/lib/sprockets/encoding_utils.rb",
+      "lineno": 39,
+      "static": true,
+      "parameters": [
+        {
+          "name": "str",
+          "class": "String",
+          "object_id": 96740,
+          "value": "x_____\u00145\u0010___:\u0010\u0015__oEE\u0011g__\u0003_;__\u0001_CEi|_zff2___L_$_w_`Ye___/_O\u0014\u0004_P_K3{+_3_\u0007_V__|__t&_t___$_7_:_RM_:____j (...1513 more characters)",
+          "kind": "req"
+        },
+        {
+          "name": "window_bits",
+          "class": "Integer",
+          "object_id": 31,
+          "value": "15",
+          "kind": "opt"
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 5680,
+        "value": "Sprockets::EncodingUtils"
+      }
+    },
+    {
+      "id": 13,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Marshal",
+      "method_id": "load",
+      "path": "<internal:marshal>",
+      "lineno": 33,
+      "static": true,
+      "parameters": [
+        {
+          "name": "source",
+          "class": "String",
+          "object_id": 96760,
+          "value": "\u0004\b[\u0007o:\bSet\u0006:\n@hash}|I\"\u0018environment-version\u0006:\u0006ETTI\"\u0016environment-paths\u0006;\u0007TTI\"\u000erails-env\u0006;\u0007TTI\"0process (...17343 more characters)",
+          "kind": "req"
+        },
+        {
+          "name": "arg",
+          "class": "Array",
+          "object_id": 96780,
+          "value": "[]",
+          "kind": "rest",
+          "size": 0
+        }
+      ],
+      "receiver": {
+        "class": "Module",
+        "object_id": 39080,
+        "value": "Marshal"
+      }
+    },
+    {
+      "id": 14,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 13,
+      "elapsed": 0.00011299998732283711,
+      "elapsed_instrumentation": 0.0005750000127591193,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Set: {\"environment-version\", \"environment-paths\", \"rails-env\", \"processors:type=text/css&file_type, #<Set: {\"environment-version\", \"environment-paths\", \"rails-env\", \"processors:type=text/css&file_type]",
+        "object_id": 96840,
+        "size": 2
+      }
+    },
+    {
+      "id": 15,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 12,
+      "elapsed": 0.0007299999706447124,
+      "elapsed_instrumentation": 0.00031100003980100155,
+      "return_value": {
+        "class": "Array",
+        "value": "[#<Set: {\"environment-version\", \"environment-paths\", \"rails-env\", \"processors:type=text/css&file_type, #<Set: {\"environment-version\", \"environment-paths\", \"rails-env\", \"processors:type=text/css&file_type]",
+        "object_id": 96840,
+        "size": 2
+      }
+    },
+    {
+      "id": 16,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 96860,
+        "value": "[d?_U\u001c_\u000e_@mU___]____\r\u000fzy__d_\u001f__<_]"
+      }
+    },
+    {
+      "id": 17,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 16,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00003200001083314419,
+      "return_value": {
+        "class": "String",
+        "value": "ZD/MVRyuDrhAbVW2ztdduKu91Q0PennFz2SfH4H3PO4=",
+        "object_id": 96880
+      }
+    },
+    {
+      "id": 18,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 96900,
+        "value": "[___%_!#_x_*%\u0017,7__\u001f___m\u0011_\u000bg'@____]"
+      }
+    },
+    {
+      "id": 19,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 18,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000021999934688210487,
+      "return_value": {
+        "class": "String",
+        "value": "r+ipJcEhI5V48yolFyw3z/of2rC8bRGfC2cnQN/ejM8=",
+        "object_id": 96920
+      }
+    },
+    {
+      "id": 20,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 96940,
+        "value": "[e________>__\u001cD__u_O#\u0014&_y}&___=__]"
+      }
+    },
+    {
+      "id": 21,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 20,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.0000219999928958714,
+      "return_value": {
+        "class": "String",
+        "value": "ZZfbitqatL2SPujaHESP7HXYTyMUJrp5fSagopU9jLk=",
+        "object_id": 96960
+      }
+    },
+    {
+      "id": 22,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 96980,
+        "value": "[_\u0016T__2)_q_>Fp\u0004Q\"?hkp:__\u000f\u0005z.Y____]"
+      }
+    },
+    {
+      "id": 23,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 22,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "wBZU8JYyKfJxvT5GcARRIj9oa3A6vqwPBXouWZaFyM0=",
+        "object_id": 97000
+      }
+    },
+    {
+      "id": 24,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97020,
+        "value": "[_$_U_[j=j\u001d{j___~_\u0003\t_u_\u0015__\u0000\u0010q3___]"
+      }
+    },
+    {
+      "id": 25,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 24,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00002099998528137803,
+      "return_value": {
+        "class": "String",
+        "value": "4iTxVZhbaj1qHXtq6emWfpADCfB1/BWZoQAQcTP8lZg=",
+        "object_id": 97040
+      }
+    },
+    {
+      "id": 26,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97060,
+        "value": "[_\u0016_5_\u0013___C\u0005G_M$_E_P__w:___\u0012B&!\u0014*]"
+      }
+    },
+    {
+      "id": 27,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 26,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.000019000086467713118,
+      "return_value": {
+        "class": "String",
+        "value": "7hbzNfITo8CfQwVH0U0k3kWwUODldzqk5JUSQiYhFCo=",
+        "object_id": 97080
+      }
+    },
+    {
+      "id": 28,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97100,
+        "value": "[_e\tV\u0004\u0005J;:_D3{CG\u0007A_`\u000e\u0016\u0004H_Pd{\u001f_i_]"
+      }
+    },
+    {
+      "id": 29,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 28,
+      "elapsed": 9.999494068324566e-7,
+      "elapsed_instrumentation": 0.000023000058718025684,
+      "return_value": {
+        "class": "String",
+        "value": "22UJVgQFSjs6h0Qzf3tDRwdB+2AOFgRI4VBkex/naZQ=",
+        "object_id": 97120
+      }
+    },
+    {
+      "id": 30,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97140,
+        "value": "[_\u0013___#\u0002__Y___\u0012$\u0015a\b_]tt___=D_z$\r_]"
+      }
+    },
+    {
+      "id": 31,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 30,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "gxPHz7MjAtb3WYvE+hIkFWEI7V10dIOykj1EtnokDa4=",
+        "object_id": 97160
+      }
+    },
+    {
+      "id": 32,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97180,
+        "value": "[______\u001bN&_Vk_\u0017@_\"T9_%p_W_9_H_@CC]"
+      }
+    },
+    {
+      "id": 33,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 32,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00002099998528137803,
+      "return_value": {
+        "class": "String",
+        "value": "14n+vJ76G04mpFZrhxdA+SJUOf0lcLZXsDmqSN9AQ0M=",
+        "object_id": 97200
+      }
+    },
+    {
+      "id": 34,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97220,
+        "value": "[__^FS\r\u0004_Zo_!_\\_\u0006_~_\u0015M8'_lf(__{_\f]"
+      }
+    },
+    {
+      "id": 35,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 34,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00023199996212497354,
+      "return_value": {
+        "class": "String",
+        "value": "s6BeRlMNBJVab7Uhm1yUBrp+9hVNOCf5bGYo0dt74Aw=",
+        "object_id": 97240
+      }
+    },
+    {
+      "id": 36,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97260,
+        "value": "[`__%___y___k___xYGX\u001b\\Kl__G__\u0000_fR]"
+      }
+    },
+    {
+      "id": 37,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 36,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.0000219999928958714,
+      "return_value": {
+        "class": "String",
+        "value": "YJ/gJa6o2HnezpNrrKyWeFlHWBtcS2zXnEennQCZZlI=",
+        "object_id": 97280
+      }
+    },
+    {
+      "id": 38,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97300,
+        "value": "[_\u0015__o__m_=\u0014\u000b_~__C\u0014__>l__\u0007_D_\u001a_'_]"
+      }
+    },
+    {
+      "id": 39,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 38,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000020000035874545574,
+      "return_value": {
+        "class": "String",
+        "value": "5hWIqG+wjm2YPRQLy36f7UMUhO0+bODbB+tE8RqVJ5A=",
+        "object_id": 97320
+      }
+    },
+    {
+      "id": 40,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97340,
+        "value": "[____'c___\u0001_\u000b____\u0010_1c__Z$__\u00041___T]"
+      }
+    },
+    {
+      "id": 41,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 40,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001899997005239129,
+      "return_value": {
+        "class": "String",
+        "value": "iuT7/Sdj0uqkAfkLq5rBgRDHMWOZ91okp7cEMfGkvVQ=",
+        "object_id": 97360
+      }
+    },
+    {
+      "id": 42,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97380,
+        "value": "[_-w_}__\u000fV_,_b_(_9\b___3___)_\u0005_@5_]"
+      }
+    },
+    {
+      "id": 43,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 42,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001899997005239129,
+      "return_value": {
+        "class": "String",
+        "value": "4S139H37vQ9W6CzYYqwo/DkIvInwM4/D+Cm6BZRANZM=",
+        "object_id": 97400
+      }
+    },
+    {
+      "id": 44,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97420,
+        "value": "[_\u0005__k\u0001[__\f___T_S_\u0016mzgr_4\u000fT7/_c__]"
+      }
+    },
+    {
+      "id": 45,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 44,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.000020000035874545574,
+      "return_value": {
+        "class": "String",
+        "value": "jQXw22sBW4mADIf/mFTHU+4WbXpncqA0D1Q3L5RjyI8=",
+        "object_id": 97440
+      }
+    },
+    {
+      "id": 46,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97460,
+        "value": "[=____d)_\u0011F__s\u0017Gc_\n__(L_NqX\u0019H\f_0M]"
+      }
+    },
+    {
+      "id": 47,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 46,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.000019000028260052204,
+      "return_value": {
+        "class": "String",
+        "value": "PZfKtfdkKd0RRve6cxdHY/kK+5coTItOcVgZSAyrME0=",
+        "object_id": 97480
+      }
+    },
+    {
+      "id": 48,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97500,
+        "value": "[_\u001eguAkU_\u001e\u001a\rh____y*xW__.\u001b__B___,N]"
+      }
+    },
+    {
+      "id": 49,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 48,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001899997005239129,
+      "return_value": {
+        "class": "String",
+        "value": "9h5ndUFrVc4eGg1o4q309nkqeFef3C4b2O1Crqq7LE4=",
+        "object_id": 97520
+      }
+    },
+    {
+      "id": 50,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97540,
+        "value": "[;__\b_x:k_}\u0012+_\u0010Z_______MH___G____]"
+      }
+    },
+    {
+      "id": 51,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 50,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000020000035874545574,
+      "return_value": {
+        "class": "String",
+        "value": "O4jeCKd4OmvXfRIrqhBa/b3LjYGciE1I3dLvR/ignO8=",
+        "object_id": 97560
+      }
+    },
+    {
+      "id": 52,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97580,
+        "value": "[___x__=\u0011rM_______P=_\u0003/Y_}U______]"
+      }
+    },
+    {
+      "id": 53,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 52,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00002099998528137803,
+      "return_value": {
+        "class": "String",
+        "value": "w5breI+OPRFyTa6Uqc2I95NQPZIDL1m/fVW9X4Lk4MU=",
+        "object_id": 97600
+      }
+    },
+    {
+      "id": 54,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97620,
+        "value": "[\u0005______T___:7E\u0016L_^____q[_v_?__Qf]"
+      }
+    },
+    {
+      "id": 55,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 54,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00001899997005239129,
+      "return_value": {
+        "class": "String",
+        "value": "BYbOz5vh1FTu79I6N0UWTOhe9/aapHFbs3aQP4GDUWY=",
+        "object_id": 97640
+      }
+    },
+    {
+      "id": 56,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97660,
+        "value": "[b\u0011\u0002__\u001e___?+_s&_\u000b_____\u0005__\u001f_=__\u001d_:]"
+      }
+    },
+    {
+      "id": 57,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 56,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001899997005239129,
+      "return_value": {
+        "class": "String",
+        "value": "YhECt8MerNekPyuwcyb7C863p6SoBbP5H7A9uaQdmjo=",
+        "object_id": 97680
+      }
+    },
+    {
+      "id": 58,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97700,
+        "value": "[l\u001b_J__t___h%\u0015_B[__$U__\b_____s[SK]"
+      }
+    },
+    {
+      "id": 59,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 58,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001799996243789792,
+      "return_value": {
+        "class": "String",
+        "value": "bBuMSqW/dL3cy2glFa1CW8ynJFWwzgjEmpfsp3NbU0s=",
+        "object_id": 97720
+      }
+    },
+    {
+      "id": 60,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97740,
+        "value": "[_\u0004__l\n__gacD/_&_w____t_}!__C__\f_]"
+      }
+    },
+    {
+      "id": 61,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 60,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001799996243789792,
+      "return_value": {
+        "class": "String",
+        "value": "2wSJ5GwKzp9nYWNEL9smhHePsrmddLJ9IdVfQ5mBDNw=",
+        "object_id": 97760
+      }
+    },
+    {
+      "id": 62,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97780,
+        "value": "[_____ x __\u0007\u0018_\t<__:___[_I_nA'__\u001d:]"
+      }
+    },
+    {
+      "id": 63,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 62,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "zqqlht8geCCfkAcY5wk8hoM6lF/+W6hJ/m5BJ+zvHTo=",
+        "object_id": 97800
+      }
+    },
+    {
+      "id": 64,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97820,
+        "value": "[_\u000b_\u0017>___v\u0000\u0001__\u0001_0_\u0002_>_^___rK_\u0007___]"
+      }
+    },
+    {
+      "id": 65,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 64,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000019000028260052204,
+      "return_value": {
+        "class": "String",
+        "value": "owuDFz6xo+F2AAGnzQGCMP8CnD6vXomD83JLmgeetcQ=",
+        "object_id": 97840
+      }
+    },
+    {
+      "id": 66,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97860,
+        "value": "[_\r___I__41_7\u0011_\u000e\u001f\u0015_\u0012\u0004!_h\\_%_3_Q_\b]"
+      }
+    },
+    {
+      "id": 67,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 66,
+      "elapsed": 9.999494068324566e-7,
+      "elapsed_instrumentation": 0.000018000078853219748,
+      "return_value": {
+        "class": "String",
+        "value": "yQ2nh4xJvv00Mes3Ea8OHxWFEgQhX2hcpyWAM9VR/Ag=",
+        "object_id": 97880
+      }
+    },
+    {
+      "id": 68,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97900,
+        "value": "[cS__K:h___\u001aY__@_\u0007n_b^\u0011U_\b_x__\u0016_s]"
+      }
+    },
+    {
+      "id": 69,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 68,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000022999942302703857,
+      "return_value": {
+        "class": "String",
+        "value": "Y1Pi/ks6aNqvjBpZs91AqgdulGJeEVXUCMl47PQWl3M=",
+        "object_id": 97920
+      }
+    },
+    {
+      "id": 70,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97940,
+        "value": "[H/\u0005W______Z___uD______\u0019\u0005_)__)_]"
+      }
+    },
+    {
+      "id": 71,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 70,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001899997005239129,
+      "return_value": {
+        "class": "String",
+        "value": "SH8vBVeKieaTv+ValbLhdUTB1+Gi7KgZBekp0/ApmX8=",
+        "object_id": 97960
+      }
+    },
+    {
+      "id": 72,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 97980,
+        "value": "[______z__.\b__y_`_\u0002__p;_}__Ib\u000f___]"
+      }
+    },
+    {
+      "id": 73,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 72,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.0000219999928958714,
+      "return_value": {
+        "class": "String",
+        "value": "i6rM/+e+ev+/LgjrlHnFYPUCrKJwO5B9rtJJYg/YwrI=",
+        "object_id": 98000
+      }
+    },
+    {
+      "id": 74,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98020,
+        "value": "[rs_y\u001a6_l_w';X'4__-C_=_\"\u0007_\u000ePH\u001f\u0001_]"
+      }
+    },
+    {
+      "id": 75,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 74,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.0000219999928958714,
+      "return_value": {
+        "class": "String",
+        "value": "cnPZeRp/Ns9soXcnO1gnNJORLUOSPfMiB7UOUEgfAZM=",
+        "object_id": 98040
+      }
+    },
+    {
+      "id": 76,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98060,
+        "value": "[______y_\u0012\u0016_____9___6_>_/c_.p\u0005_4_]"
+      }
+    },
+    {
+      "id": 77,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 76,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000021000043489038944,
+      "return_value": {
+        "class": "String",
+        "value": "rtrarOLhedsSFoLFn6aYOfrxpjbGPo4vY/YucAXCNPw=",
+        "object_id": 98080
+      }
+    },
+    {
+      "id": 78,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98100,
+        "value": "[__l[\u001c_'_#_________HR___y______~_]"
+      }
+    },
+    {
+      "id": 79,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 78,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001899997005239129,
+      "return_value": {
+        "class": "String",
+        "value": "urVsWxzSJ/Ejsbmti8+FkIfHSFLmr+F5l7D/hrWifro=",
+        "object_id": 98120
+      }
+    },
+    {
+      "id": 80,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98140,
+        "value": "[_K___>__x_t_/\"____J\u000e;_$(_+____H]"
+      }
+    },
+    {
+      "id": 81,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 80,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000020000035874545574,
+      "return_value": {
+        "class": "String",
+        "value": "lkvloNc+vt5473SyLyL7u+XWSg47f6EkKJwrn4KRjUg=",
+        "object_id": 98160
+      }
+    },
+    {
+      "id": 82,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98180,
+        "value": "[_\u001d_U'_____l\u0012-_}____Z______2_\u0012_v_]"
+      }
+    },
+    {
+      "id": 83,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 82,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "kh2YVSfy+Mus8mwSLfB9wImykFq/4d2N3tsyzBL9duI=",
+        "object_id": 98200
+      }
+    },
+    {
+      "id": 84,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98220,
+        "value": "[\u001eu-_Z.____HU_X_____L)_v_`_y]_\u0017__]"
+      }
+    },
+    {
+      "id": 85,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 84,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.0000219999928958714,
+      "return_value": {
+        "class": "String",
+        "value": "HnUtrFoum8uQiUhVuliL0svW3kwpknaQYNR5XZcX3K8=",
+        "object_id": 98240
+      }
+    },
+    {
+      "id": 86,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98260,
+        "value": "[\u0002_2__\u0000_#M____A{_______D____^e2__]"
+      }
+    },
+    {
+      "id": 87,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 86,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "Avky/p4A1yNN8MCF2EF7i5Svvcmm2kSF/5rCXmUyko8=",
+        "object_id": 98280
+      }
+    },
+    {
+      "id": 88,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98300,
+        "value": "[___\u0018R.jI&__\u0006___S91a\u0011_e__>__?___g]"
+      }
+    },
+    {
+      "id": 89,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 88,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "+eCtGFIuakkm65kGr6W2UzkxYRHQZdTNPqymP5WJoWc=",
+        "object_id": 98320
+      }
+    },
+    {
+      "id": 90,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98340,
+        "value": "[\fY__!____-k+)____[__\u001b__r__\\\t-___]"
+      }
+    },
+    {
+      "id": 91,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 90,
+      "elapsed": 9.999494068324566e-7,
+      "elapsed_instrumentation": 0.000018000020645558834,
+      "return_value": {
+        "class": "String",
+        "value": "DFmrwyGc/4HZLWsrKZWgspRbxtgb4vRy+shcCS3C94I=",
+        "object_id": 98360
+      }
+    },
+    {
+      "id": 92,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98380,
+        "value": "[_\nX\u0019[_\u0007\u0017__[_q3_\u0014_____7__N_I\u0000__O\u0017]"
+      }
+    },
+    {
+      "id": 93,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 92,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000020000035874545574,
+      "return_value": {
+        "class": "String",
+        "value": "wQpYGVvoBxevglvlcTPMFKWBuO2mN9P3Tr9JANyfTxc=",
+        "object_id": 98400
+      }
+    },
+    {
+      "id": 94,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98420,
+        "value": "[\u0003_A__jIB|\u0007__:_____u____\u0010___69\u0011__]"
+      }
+    },
+    {
+      "id": 95,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 94,
+      "elapsed": 0.00000200001522898674,
+      "elapsed_instrumentation": 0.00010599999222904444,
+      "return_value": {
+        "class": "String",
+        "value": "A5RBrpFqSUJ8B9iQOqTmp52bdV+M6uwQuO/QNjkRhJ8=",
+        "object_id": 98440
+      }
+    },
+    {
+      "id": 96,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98460,
+        "value": "[___'_V~@+3*_$\u0001\u0006\\_\u0003\bt\fp\u0005___D____\u0010]"
+      }
+    },
+    {
+      "id": 97,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 96,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00004299997817724943,
+      "return_value": {
+        "class": "String",
+        "value": "7f+iJ4VWfkArMyqpJAEGXIIDCHQMcAXyuMdE//nW7xA=",
+        "object_id": 98480
+      }
+    },
+    {
+      "id": 98,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98500,
+        "value": "[sU`\"/__B____m(_\r/____c__\n_Y_s__)]"
+      }
+    },
+    {
+      "id": 99,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 98,
+      "elapsed": 9.999494068324566e-7,
+      "elapsed_instrumentation": 0.00005400000372901559,
+      "return_value": {
+        "class": "String",
+        "value": "c1VgIi/FjEKYua31bSjhDS+9/sSWY+7QCqFZsHPEkCk=",
+        "object_id": 98520
+      }
+    },
+    {
+      "id": 100,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98540,
+        "value": "[__C\u0002\u0002__ThD_?U\u0013\u0002__8bmy__ __!z6_1_]"
+      }
+    },
+    {
+      "id": 101,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 100,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00004499999340623617,
+      "return_value": {
+        "class": "String",
+        "value": "8PxDAgLd/VRoRNI/VRMC/s44Ym153Lcg+tohejbVMeA=",
+        "object_id": 98560
+      }
+    },
+    {
+      "id": 102,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98580,
+        "value": "[Da___K_u__y_0___U\u0011Fs___n_h__\u0019__&]"
+      }
+    },
+    {
+      "id": 103,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 102,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000026999972760677338,
+      "return_value": {
+        "class": "String",
+        "value": "RGGTmJ5LuHWx03n7MPPo0FURRnPap/pujWitnhmavCY=",
+        "object_id": 98600
+      }
+    },
+    {
+      "id": 104,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98620,
+        "value": "[_\u0017A_\\\u0015_XU__A_Z\u0015___ /c\u0019___X5_8_U~]"
+      }
+    },
+    {
+      "id": 105,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 104,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00002300000051036477,
+      "return_value": {
+        "class": "String",
+        "value": "vhdBqlwV1FhVkvxBqFoV0MboIC9jGfH00Fg1uTiBVX4=",
+        "object_id": 98640
+      }
+    },
+    {
+      "id": 106,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98660,
+        "value": "[_m__#5_v_y____*n_\u0011__H!\u0017_Bw__^._j]"
+      }
+    },
+    {
+      "id": 107,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 106,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000025999965146183968,
+      "return_value": {
+        "class": "String",
+        "value": "ym2l/yM1gnb1eZn2quEqbs4RgqhIIRflQnf/jV4u+Wo=",
+        "object_id": 98680
+      }
+    },
+    {
+      "id": 108,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98700,
+        "value": "[j_ @_\n_L__)_F__a___<_*_____v_R__]"
+      }
+    },
+    {
+      "id": 109,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 108,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.0000219999928958714,
+      "return_value": {
+        "class": "String",
+        "value": "auEgQL0K20yd0Cm0RpHWYeqCkDyiKuKQwqSrdslSkZs=",
+        "object_id": 98720
+      }
+    },
+    {
+      "id": 110,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98740,
+        "value": "[_k0____.__E__(_____9______* __c]"
+      }
+    },
+    {
+      "id": 111,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 110,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00002300000051036477,
+      "return_value": {
+        "class": "String",
+        "value": "h2swnceSxy7iX0WOf6Uo7J+fhtU5/o/bvqmDKiC35WM=",
+        "object_id": 98760
+      }
+    },
+    {
+      "id": 112,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98780,
+        "value": "[q___9__Y_%_h\f+_\u0005____\u000e_`_`_^__8_t]"
+      }
+    },
+    {
+      "id": 113,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 112,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00024799996754154563,
+      "return_value": {
+        "class": "String",
+        "value": "cZL7/jntmVnkJe1oDCuNBazG8ooOzGCRYJxerKw4j3Q=",
+        "object_id": 98800
+      }
+    },
+    {
+      "id": 114,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98820,
+        "value": "[b_l___p__h?#__.\u0017_J\u00101q__)D__\u0006_$\u0005_]"
+      }
+    },
+    {
+      "id": 115,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 114,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00002099998528137803,
+      "return_value": {
+        "class": "String",
+        "value": "YoJs9tT4cNWUaD8j7LQuF89KEDFxr/UpRI29BsskBYw=",
+        "object_id": 98840
+      }
+    },
+    {
+      "id": 116,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98860,
+        "value": "[,r\u001d\u0014}l__m_-f_ E67_____Y__'l{_\\\u0001\u000e]"
+      }
+    },
+    {
+      "id": 117,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 116,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.000020000035874545574,
+      "return_value": {
+        "class": "String",
+        "value": "LHIdFH1s1MVtky1mhSBFNje7/7qS0VmR6ydse59cAQ4=",
+        "object_id": 98880
+      }
+    },
+    {
+      "id": 118,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98900,
+        "value": "[\u0010a____\u000b__b\u0016__\u0002_:_\u0000_?\"\u0005__8w__\u0018\u0004__]"
+      }
+    },
+    {
+      "id": 119,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 118,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "EGGKtNTFC86GYhas2gLfOoAAyz8iBbGNOHeQtRgEuaA=",
+        "object_id": 98920
+      }
+    },
+    {
+      "id": 120,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98940,
+        "value": "[_d\u0005_7]__hS6\u001d\fN_B_\u001c___D_\u0005\u0017_E9___z]"
+      }
+    },
+    {
+      "id": 121,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 120,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000020000035874545574,
+      "return_value": {
+        "class": "String",
+        "value": "tWQF1TddtZBoUzYdDE7HQv8cvd+SROcFF/5FOfOO63o=",
+        "object_id": 98960
+      }
+    },
+    {
+      "id": 122,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 98980,
+        "value": "[@__*__\u001bo___\n\u0017\b_S\u000b__=__uY__f_\u001f\t__]"
+      }
+    },
+    {
+      "id": 123,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 122,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001899997005239129,
+      "return_value": {
+        "class": "String",
+        "value": "QI2EKrHcG2+BjbsKFwiZUwuryj2/+HVZz+ZmjR8J59o=",
+        "object_id": 99000
+      }
+    },
+    {
+      "id": 124,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99020,
+        "value": "[_f\u0000_0w____x_e\u0014___\u0018\u0002__z?!5akN6_X_]"
+      }
+    },
+    {
+      "id": 125,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 124,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.000019000028260052204,
+      "return_value": {
+        "class": "String",
+        "value": "5GYAhzB3hO+4p3jjZRSNy9IYAonPej8hNWFrTjagWOs=",
+        "object_id": 99040
+      }
+    },
+    {
+      "id": 126,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99060,
+        "value": "[5*@#_'_#_\u001d__nvW___|I__T__\b_k\u0014\u001c\t]"
+      }
+    },
+    {
+      "id": 127,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 126,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00001899997005239129,
+      "return_value": {
+        "class": "String",
+        "value": "NSpAI64nuyPAHZy7bnZXw+W3fEl/yahU8Y0It2sUHAk=",
+        "object_id": 99080
+      }
+    },
+    {
+      "id": 128,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99100,
+        "value": "[V_____?_$__6B__\u0012_j&(___Mq_\u0010_!\u000e__]"
+      }
+    },
+    {
+      "id": 129,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 128,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00002099998528137803,
+      "return_value": {
+        "class": "String",
+        "value": "VpHQjfK2P9skzZY2QuPxEvxqJiiKsO5NcaoQsSEO6LY=",
+        "object_id": 99120
+      }
+    },
+    {
+      "id": 130,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99140,
+        "value": "[_([x_v___>q:_x___\u0018_\u0015uLa(2_\u0018G__X\u0004]"
+      }
+    },
+    {
+      "id": 131,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 130,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "7yhbeNF2o6y5PnE6xnhfk8QYlhV1TGEoMosYR83xWAQ=",
+        "object_id": 99160
+      }
+    },
+    {
+      "id": 132,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99180,
+        "value": "[RqM____I_%\u0004\t\t____g\u0000__Xy\u000fxh>\u001e___m]"
+      }
+    },
+    {
+      "id": 133,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 132,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "UnFNhOCenEn7JQQJCcfGzKFnANC4WHkPeGg+HpbQp20=",
+        "object_id": 99200
+      }
+    },
+    {
+      "id": 134,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99220,
+        "value": "[\u0019(&'Ng____}T_M\u0015___~G___6dy_l8Q__]"
+      }
+    },
+    {
+      "id": 135,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 134,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "GSgmJ05n1/aK2H1Uvk0ViqDzfkeyh4s2ZHnXbDhRoO8=",
+        "object_id": 99240
+      }
+    },
+    {
+      "id": 136,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99260,
+        "value": "[____e__l[___e__n_H-%_sf2_x\u0017_\u0000_X\u000e]"
+      }
+    },
+    {
+      "id": 137,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 136,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "oMb02mXb22xbo/jYZbbsbqZILSXoc2YyyXgXtQD6WA4=",
+        "object_id": 99280
+      }
+    },
+    {
+      "id": 138,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99300,
+        "value": "[___8__\t_&__/_\u0013__6\\v_N____EY_Fe_f]"
+      }
+    },
+    {
+      "id": 139,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 138,
+      "elapsed": 9.999494068324566e-7,
+      "elapsed_instrumentation": 0.000021000043489038944,
+      "return_value": {
+        "class": "String",
+        "value": "65iPONTaCecmo+0vhROQwTZcdoxOh634gEVZ4UZliGY=",
+        "object_id": 99320
+      }
+    },
+    {
+      "id": 140,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99340,
+        "value": "[_bL______*_____V,'__N_d__G\f_TD_\u000f]"
+      }
+    },
+    {
+      "id": 141,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 140,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "smJMvaf94P+KKqm/3MKkViwn1fNOimTPq0cM+FREvQ8=",
+        "object_id": 99360
+      }
+    },
+    {
+      "id": 142,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99380,
+        "value": "[_Q>x@tG&QA___ _t_R\bO_x___t___\u0002__]"
+      }
+    },
+    {
+      "id": 143,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 142,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001899997005239129,
+      "return_value": {
+        "class": "String",
+        "value": "plE+eEB0RyZRQe/0zCBfdKdSCE/5eLyMiXS16P8C0Ns=",
+        "object_id": 99400
+      }
+    },
+    {
+      "id": 144,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99420,
+        "value": "[-_E__\u001caJ__\u0005__U_{_\u0002zcY__p__inc5__]"
+      }
+    },
+    {
+      "id": 145,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 144,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "Ld1Fg+4cYUq14QWkn1WFe+ICemNZyc5wtZlpbmM1j8o=",
+        "object_id": 99440
+      }
+    },
+    {
+      "id": 146,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99460,
+        "value": "[RO_?_5__1k~0__\u001c__G_}GGc\u001f_\f__[_ }]"
+      }
+    },
+    {
+      "id": 147,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 146,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00001899997005239129,
+      "return_value": {
+        "class": "String",
+        "value": "Uk/BP4k12u8xa34wpZgcv8JHjH1HR2MfqgyIy1v3IH0=",
+        "object_id": 99480
+      }
+    },
+    {
+      "id": 148,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99500,
+        "value": "[_ozk_\u000e__pY____/__@\u0010rd____z______]"
+      }
+    },
+    {
+      "id": 149,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 148,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000024999957531690598,
+      "return_value": {
+        "class": "String",
+        "value": "sW96a6IOgJ5wWZKxr6AvlJJAEHJkwdWvo3qXparLkpQ=",
+        "object_id": 99520
+      }
+    },
+    {
+      "id": 150,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99540,
+        "value": "[_I___\u0016_\b_ _\n\u0011____p*/C____\u0005_\u0004__M]"
+      }
+    },
+    {
+      "id": 151,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 150,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.0000219999928958714,
+      "return_value": {
+        "class": "String",
+        "value": "2EmK8I4W/AiVIJAKEZSZ7LVwKi9Df9Gz0PQFpgT60k0=",
+        "object_id": 99560
+      }
+    },
+    {
+      "id": 152,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99580,
+        "value": "[___;\u0004___\u0010w____L\u000b______f_\u0005_9__y__]"
+      }
+    },
+    {
+      "id": 153,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 152,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.0000219999928958714,
+      "return_value": {
+        "class": "String",
+        "value": "kvO4OwSx9aQQd/DX5c9MC6CB09Crn2asBYw53KV5zq0=",
+        "object_id": 99600
+      }
+    },
+    {
+      "id": 154,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99620,
+        "value": "[r__j___I___w\u0006_-\t__~__y\u001ek_g_vRVq_]"
+      }
+    },
+    {
+      "id": 155,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 154,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.000020000035874545574,
+      "return_value": {
+        "class": "String",
+        "value": "craDaoSoqEnon4x3BqYtCdqkfqrSeR5rr2eCdlJWcZg=",
+        "object_id": 99640
+      }
+    },
+    {
+      "id": 156,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99660,
+        "value": "[___&_\u001b/_5\u0002N______kS_>f\\_M(_\u0005_F\u0011]"
+      }
+    },
+    {
+      "id": 157,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 156,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00001999997766688466,
+      "return_value": {
+        "class": "String",
+        "value": "s8DyJoQbfy+hNQJOsbeplfmma1OkPmZclE0o2AXLRhE=",
+        "object_id": 99680
+      }
+    },
+    {
+      "id": 158,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99700,
+        "value": "[Jl___\u0019____\u000eE___6__$L__4_\u000e\u0004___+_\u0010]"
+      }
+    },
+    {
+      "id": 159,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 158,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00002300000051036477,
+      "return_value": {
+        "class": "String",
+        "value": "SmzYjcEZv6zb5A5F8f//NqeoJEzxsTS+DgS9up4ryBA=",
+        "object_id": 99720
+      }
+    },
+    {
+      "id": 160,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99740,
+        "value": "[\u0014f__x8___\u0005o__Rq_+I____i_______4_]"
+      }
+    },
+    {
+      "id": 161,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 160,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.000019000028260052204,
+      "return_value": {
+        "class": "String",
+        "value": "FGawiXg4tdCrBW+ZtlJx9CtJwrPl6Wm+oZm3v4CgNJ4=",
+        "object_id": 99760
+      }
+    },
+    {
+      "id": 162,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99780,
+        "value": "[_p___Gr_1\u0013_\u0013_h\\\u0016j__[n__2a_:____]"
+      }
+    },
+    {
+      "id": 163,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 162,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00002300000051036477,
+      "return_value": {
+        "class": "String",
+        "value": "/3CisK1HcsAxE+kT0mhcFmrd9VturKAyYf86f8fak5k=",
+        "object_id": 99800
+      }
+    },
+    {
+      "id": 164,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99820,
+        "value": "[_0_\u001a__ou5_X_U____=\nP____K__A_2^_]"
+      }
+    },
+    {
+      "id": 165,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 164,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.000020000035874545574,
+      "return_value": {
+        "class": "String",
+        "value": "wDDYGsPEb3U1h1jHVb6goMs9ClDDmNqPS9+EQb4yXuk=",
+        "object_id": 99840
+      }
+    },
+    {
+      "id": 166,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99860,
+        "value": "[__\u0003a\u000e__!_\u0001I_h_%K___-\u0019___\u001e!%_____]"
+      }
+    },
+    {
+      "id": 167,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 166,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00002099998528137803,
+      "return_value": {
+        "class": "String",
+        "value": "9q0DYQ6u+yGVAUnCaPQlS5CPkS0Z84f+HiEl39/fhKM=",
+        "object_id": 99880
+      }
+    },
+    {
+      "id": 168,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99900,
+        "value": "[_z>a__]_\u001e__Y*\u0001_'_>aT\u0004_A__Aqd__m]"
+      }
+    },
+    {
+      "id": 169,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 168,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00002099998528137803,
+      "return_value": {
+        "class": "String",
+        "value": "oXo+Ya+hXdge8uxZKgH8J7g+YVQEhkGTkUFxZNV/ym0=",
+        "object_id": 99920
+      }
+    },
+    {
+      "id": 170,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99940,
+        "value": "[BiPA_\u001bn_I__Ey\u0019__G___}0\u0016_\"eB_l___]"
+      }
+    },
+    {
+      "id": 171,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 170,
+      "elapsed": 0,
+      "elapsed_instrumentation": 0.00002300000051036477,
+      "return_value": {
+        "class": "String",
+        "value": "QmlQQe4bbrVJy4xFeRn23Ufh0oN9MBb1ImVC62zmul8=",
+        "object_id": 99960
+      }
+    },
+    {
+      "id": 172,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 99980,
+        "value": "[R5____UO_p_p__&\u0003_____Jsu___Q___~]"
+      }
+    },
+    {
+      "id": 173,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 172,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.0000439999857917428,
+      "return_value": {
+        "class": "String",
+        "value": "UjXT286GVU+/cMdw7u4mA8+fmMHlSnN12Pe6UeCOpH4=",
+        "object_id": 100000
+      }
+    },
+    {
+      "id": 174,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 100020,
+        "value": "[_%__sz`_V\u0006\u001a\u00192__R`v__\u0018_t\"_g__\u000bZ_l]"
+      }
+    },
+    {
+      "id": 175,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 174,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.00003200001083314419,
+      "return_value": {
+        "class": "String",
+        "value": "+SXAwnN6YNZWBhoZMvDnUmB28PsY53QivmeVvQtapGw=",
+        "object_id": 100040
+      }
+    },
+    {
+      "id": 176,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 100080,
+        "value": "[\u0007\u0010\u0012#\u0012X:#__\u001a]__\u000314__ s\u001f__N\u000f'____#]"
+      }
+    },
+    {
+      "id": 177,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 176,
+      "elapsed": 0.00000200001522898674,
+      "elapsed_instrumentation": 0.00004299997817724943,
+      "return_value": {
+        "class": "String",
+        "value": "BxASIxJYOiPGnhpdxtUDMTTP2iBzH4SHTg8n1t613CM=",
+        "object_id": 100100
+      }
+    },
+    {
+      "id": 178,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 100140,
+        "value": "[__Y\u001bs\u0012_\u0011___N___\b__u5M_____2<+R_\u001b]"
+      }
+    },
+    {
+      "id": 179,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 178,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000032999960239976645,
+      "return_value": {
+        "class": "String",
+        "value": "9fdZG3MS4BGskY5Omt7UCNSgdTVNpNCW86AyPCtSzhs=",
+        "object_id": 100160
+      }
+    },
+    {
+      "id": 180,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 100180,
+        "value": "[___\u0004___?__\u0016_*f\u000e6#___m___\u001aK___\u0013w_]"
+      }
+    },
+    {
+      "id": 181,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 180,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000059999991208314896,
+      "return_value": {
+        "class": "String",
+        "value": "31+kBOPLtT/thxaNKmYONiOW9Jhtodj6GkuWyr0Td/Y=",
+        "object_id": 100200
+      }
+    },
+    {
+      "id": 182,
+      "event": "call",
+      "thread_id": 23880,
+      "defined_class": "Array",
+      "method_id": "pack",
+      "path": "<internal:pack>",
+      "lineno": 143,
+      "static": false,
+      "parameters": [
+        {
+          "name": "fmt",
+          "class": "String",
+          "object_id": 38980,
+          "value": "m0",
+          "kind": "req"
+        },
+        {
+          "name": "buffer",
+          "class": "NilClass",
+          "object_id": 8,
+          "value": null,
+          "kind": "key"
+        }
+      ],
+      "receiver": {
+        "class": "Array",
+        "object_id": 100220,
+        "value": "[\u0006_\to_n__0\u000eV\u001a#'___,_(Y_\u0012\u0002_)\u0001_p`__]"
+      }
+    },
+    {
+      "id": 183,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 182,
+      "elapsed": 0.00000100000761449337,
+      "elapsed_instrumentation": 0.000025999965146183968,
+      "return_value": {
+        "class": "String",
+        "value": "Bl8Jb5tunLkwDlYaIyfCv5ksnShZlBICuSkBknBghbg=",
+        "object_id": 100240
+      }
+    },
+    {
+      "id": 184,
+      "event": "return",
+      "thread_id": 23880,
+      "parent_id": 1,
+      "elapsed": 0.014557000016793609,
+      "elapsed_instrumentation": 0.000400999968405813,
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "content-length": "360871",
+          "content-type": "text/css; charset=utf-8",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "\"0eec414c76e5c27635779906c218e14a98be066859a8edf64c10cccba46a0257\"",
+          "X-Request-Id": "7d544da0-b92d-4e3a-8152-84705b2fbf54",
+          "X-Runtime": "0.013212",
+          "Server-Timing": ""
+        }
+      }
+    }
+  ],
+  "version": "1.12.0",
+  "metadata": {
+    "app": "rails-diagram-example",
+    "language": {
+      "name": "ruby",
+      "engine": "ruby",
+      "version": "3.1.2"
+    },
+    "client": {
+      "name": "appmap",
+      "url": "https://github.com/applandinc/appmap-ruby",
+      "version": "0.99.4"
+    },
+    "frameworks": [
+      {
+        "name": "rails",
+        "version": "7.0.4"
+      }
+    ],
+    "git": {
+      "repository": "https://github.com/land-of-apps/rails-diagram-example.git",
+      "branch": "main",
+      "commit": "5f91577cd1b2221fd1fdb84e355a95780c17c95e",
+      "git_last_annotated_tag": null,
+      "git_last_tag": null,
+      "git_commits_since_last_annotated_tag": null,
+      "git_commits_since_last_tag": null
+    },
+    "name": "GET /assets/application-0eec414c76e5c27635779906c218e14a98be066859a8edf64c10cccba46a0257.css (200) - 15:30:38.070",
+    "timestamp": 1721676638.070132,
+    "recorder": {
+      "name": "rack",
+      "type": "requests"
+    }
+  },
+  "classMap": [
+    {
+      "name": "activesupport",
+      "type": "package",
+      "children": [
+        {
+          "name": "ActiveSupport",
+          "type": "class",
+          "children": [
+            {
+              "name": "Callbacks",
+              "type": "class",
+              "children": [
+                {
+                  "name": "CallbackSequence",
+                  "type": "class",
+                  "children": [
+                    {
+                      "name": "invoke_before",
+                      "type": "function",
+                      "labels": [
+                        "mvc.before_action"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:594"
+                    },
+                    {
+                      "name": "invoke_after",
+                      "type": "function",
+                      "labels": [
+                        "mvc.after_action"
+                      ],
+                      "static": false,
+                      "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4/lib/active_support/callbacks.rb:598"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ruby",
+      "type": "package",
+      "children": [
+        {
+          "name": "String",
+          "type": "class",
+          "children": [
+            {
+              "name": "unpack",
+              "type": "function",
+              "labels": [
+                "string.unpack"
+              ],
+              "static": false,
+              "location": "<internal:pack>:275"
+            }
+          ]
+        },
+        {
+          "name": "Array",
+          "type": "class",
+          "children": [
+            {
+              "name": "pack",
+              "type": "function",
+              "labels": [
+                "array.pack"
+              ],
+              "static": false,
+              "location": "<internal:pack>:143"
+            }
+          ]
+        },
+        {
+          "name": "Marshal",
+          "type": "class",
+          "children": [
+            {
+              "name": "load",
+              "type": "function",
+              "labels": [
+                "deserialize.unsafe"
+              ],
+              "static": true,
+              "location": "<internal:marshal>:33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sprockets",
+      "type": "package",
+      "children": [
+        {
+          "name": "Sprockets",
+          "type": "class",
+          "children": [
+            {
+              "name": "EncodingUtils",
+              "type": "class",
+              "children": [
+                {
+                  "name": "unmarshaled_deflated",
+                  "type": "function",
+                  "labels": [
+                    "deserialize.safe"
+                  ],
+                  "static": true,
+                  "location": "/Users/petecheslock/.asdf/installs/ruby/3.1.2/lib/ruby/gems/3.1.0/gems/sprockets-4.2.0/lib/sprockets/encoding_utils.rb:39"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /assets"
+        }
+      ]
+    }
+  ]
+}

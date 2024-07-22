@@ -1,0 +1,12 @@
+[
+  {
+    "route": "GET /users/{id}/following",
+    "parameters": "()",
+    "status": 422
+  },
+  {
+    "route": "POST /login",
+    "parameters": "(session)",
+    "status": 302
+  }
+]

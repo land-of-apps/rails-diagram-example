@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /password_resets/new",
+    "parameters": "()",
+    "status": 200
+  }
+]

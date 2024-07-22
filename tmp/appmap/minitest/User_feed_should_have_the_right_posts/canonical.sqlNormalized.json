@@ -1,0 +1,7 @@
+[
+  "SELECT ? AS one FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = ?)\n                     OR user_id = ?) AND \"microposts\".\"id\" = ? LIMIT ?",
+  "SELECT \"microposts\".* FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ? ORDER BY \"microposts\".\"created_at\" DESC",
+  "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+  "begin transaction",
+  "rollback transaction"
+]

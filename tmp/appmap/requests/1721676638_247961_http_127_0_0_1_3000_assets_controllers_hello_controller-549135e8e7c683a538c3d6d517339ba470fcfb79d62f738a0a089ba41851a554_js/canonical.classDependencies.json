@@ -1,0 +1,22 @@
+[
+  {
+    "caller": "GET /assets",
+    "callee": "activesupport/ActiveSupport"
+  },
+  {
+    "caller": "GET /assets",
+    "callee": "ruby/Array"
+  },
+  {
+    "caller": "GET /assets",
+    "callee": "ruby/String"
+  },
+  {
+    "caller": "GET /assets",
+    "callee": "sprockets/Sprockets"
+  },
+  {
+    "caller": "sprockets/Sprockets",
+    "callee": "ruby/Marshal"
+  }
+]

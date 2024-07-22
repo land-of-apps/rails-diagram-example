@@ -1,0 +1,7 @@
+[
+  "activesupport/ActiveSupport::Callbacks::CallbackSequence",
+  "ruby/Array",
+  "ruby/Marshal",
+  "ruby/String",
+  "sprockets/Sprockets::EncodingUtils"
+]

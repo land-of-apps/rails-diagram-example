@@ -1,0 +1,12 @@
+[
+  "http.session.read",
+  "http.session.write",
+  "log",
+  "mvc.after_action",
+  "mvc.before_action",
+  "mvc.render",
+  "mvc.template",
+  "mvc.template.resolver",
+  "random.secure",
+  "string.unpack"
+]

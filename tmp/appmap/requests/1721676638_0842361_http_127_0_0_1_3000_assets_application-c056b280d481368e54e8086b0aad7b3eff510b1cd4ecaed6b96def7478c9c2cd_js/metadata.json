@@ -1,0 +1,34 @@
+{
+  "app": "rails-diagram-example",
+  "language": {
+    "name": "ruby",
+    "engine": "ruby",
+    "version": "3.1.2"
+  },
+  "client": {
+    "name": "appmap",
+    "url": "https://github.com/applandinc/appmap-ruby",
+    "version": "0.99.4"
+  },
+  "frameworks": [
+    {
+      "name": "rails",
+      "version": "7.0.4"
+    }
+  ],
+  "git": {
+    "repository": "https://github.com/land-of-apps/rails-diagram-example.git",
+    "branch": "main",
+    "commit": "5f91577cd1b2221fd1fdb84e355a95780c17c95e",
+    "git_last_annotated_tag": null,
+    "git_last_tag": null,
+    "git_commits_since_last_annotated_tag": null,
+    "git_commits_since_last_tag": null
+  },
+  "name": "GET /assets/application-c056b280d481368e54e8086b0aad7b3eff510b1cd4ecaed6b96def7478c9c2cd.js (200) - 15:30:38.084",
+  "timestamp": 1721676638.0842361,
+  "recorder": {
+    "name": "rack",
+    "type": "requests"
+  }
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "route": "POST /microposts",
+    "parameters": "(authenticity_token,micropost,commit)",
+    "status": 302
+  }
+]

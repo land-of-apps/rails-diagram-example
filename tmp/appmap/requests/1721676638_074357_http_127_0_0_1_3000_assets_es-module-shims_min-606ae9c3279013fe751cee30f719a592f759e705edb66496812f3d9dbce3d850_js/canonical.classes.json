@@ -1,0 +1,12 @@
+[
+  "activesupport/ActiveSupport::Callbacks::CallbackSequence",
+  "activesupport/ActiveSupport::LazyLoadHooks",
+  "psych/Psych",
+  "railties/Rails::Application::Configuration",
+  "ruby/Array",
+  "ruby/ERB",
+  "ruby/Kernel",
+  "ruby/Marshal",
+  "ruby/String",
+  "sprockets/Sprockets::EncodingUtils"
+]

@@ -1,0 +1,23 @@
+[
+  "arg",
+  "buffer",
+  "details",
+  "email",
+  "expires_at",
+  "expires_in",
+  "fmt",
+  "key",
+  "locals",
+  "message",
+  "name",
+  "offset",
+  "other_hash",
+  "partial",
+  "password",
+  "password_confirmation",
+  "prefix",
+  "purpose",
+  "string",
+  "user",
+  "value"
+]

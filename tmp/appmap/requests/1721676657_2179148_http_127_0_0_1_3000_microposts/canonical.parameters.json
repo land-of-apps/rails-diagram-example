@@ -1,0 +1,21 @@
+[
+  "arg",
+  "args",
+  "authenticity_token",
+  "buffer",
+  "commit",
+  "content",
+  "expires_at",
+  "expires_in",
+  "fmt",
+  "key",
+  "message",
+  "micropost",
+  "name",
+  "offset",
+  "on_rotation",
+  "options",
+  "other_hash",
+  "purpose",
+  "value"
+]

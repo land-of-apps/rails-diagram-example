@@ -1,0 +1,5 @@
+[
+  "activesupport/ActiveSupport::Callbacks::CallbackSequence",
+  "logger/Logger::LogDevice",
+  "openssl/OpenSSL::Random"
+]

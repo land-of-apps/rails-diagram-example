@@ -1,0 +1,10 @@
+[
+  "INSERT INTO \"relationships\" (\"follower_id\", \"followed_id\", \"created_at\", \"updated_at\") VALUES (?, ?, ?, ?)",
+  "RELEASE SAVEPOINT active_record_1",
+  "SAVEPOINT active_record_1",
+  "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ?",
+  "SELECT \"relationships\".* FROM \"relationships\" WHERE \"relationships\".\"follower_id\" = ? AND \"relationships\".\"followed_id\" = ? LIMIT ?",
+  "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"email\" = ? LIMIT ?",
+  "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+  "UPDATE \"users\" SET \"updated_at\" = ?, \"remember_digest\" = ? WHERE \"users\".\"id\" = ?"
+]

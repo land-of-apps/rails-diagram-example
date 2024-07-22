@@ -1,0 +1,5 @@
+[
+  "SELECT COUNT(*) FROM \"users\"",
+  "SELECT \"users\".* FROM \"users\" LIMIT ? OFFSET ?",
+  "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?"
+]
